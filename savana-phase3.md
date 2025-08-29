@@ -163,65 +163,46 @@ Current document creation pulls from multiple disconnected sources:
 
 ## Proposed Solution Architecture
 
-### Core Philosophy: Workflow Digitalisation
+### Core Approach: API-Connected Document Templates
 
-Rather than building document generation from scratch, our approach digitalises Savana's proven workflow: **identify and replicate similar job, copy template, adjust for current requirements**. This leverages their existing expertise while dramatically reducing manual effort.
+With quality data now flowing from Phase 1 (enhanced ServiceM8) and Phase 2 (intelligent scheduling), Phase 3 automates safety documentation through Microsoft environment templates that connect directly to these systems and pre-populate SWMS and ARCP documents.
 
-### Current Proven Process
-1. **Pattern Recognition**: Staff identifies similar previous jobs 
-2. **Template Selection**: Copy previous successful ARCP/SWMS documents
-3. **Manual Adjustment**: Update addresses, dates, operatives, site-specific requirements
-4. **Expert Review**: Staff validates hazards and approves compliance
-5. **Document Finalisation**: Upload to OneDrive, send to hygienist, print hard copies
+### Simple Architecture Overview
+**Phase 1 + Phase 2 Data** → **API Connections** → **Microsoft Document Templates** → **Pre-Populated Safety Documents**
 
-### Implementation Benefits
+### Implementation Options
 
-**Immediate Value:**
-- Reduces document creation from hours to minutes
-- Maintains proven safety compliance processes
-- Eliminates manual copy/paste errors
-- Provides systematic job similarity recognition
-- **Enables Phase 2**: Digital documents ready for mobile field access
+#### **Option 1: Microsoft Word/Excel Templates with API Integration**
+- **Document Templates**: Enhanced Microsoft Word templates for ARCP and SWMS documents residing in OneDrive
+- **API Connections**: Direct integration with ServiceM8 API and scheduling system APIs
+- **Data Population**: Templates automatically pull job details, personnel assignments, hazard information, and compliance requirements
+- **Familiar Environment**: Uses existing Microsoft tools staff already know
 
-**Long-term Advantages:**
-- Creates organisational knowledge base independent of individual memory
-- Enables systematic process improvement and pattern learning
-- **Digital Transformation Foundation**: Essential prerequisite for mobile operations (Phase 2), intelligent resource allocation (Phase 3), and integrated project delivery platform (Phase 4)
-- Positions business for major infrastructure project supply chain opportunities
-- Maintains flexibility for high-value job manual processing
+#### **Option 2: Custom Web Interface with Document Generation**
+- **Web-Based Forms**: Custom interface that looks and feels like familiar document creation
+- **API Integration**: Same data connections to ServiceM8 and scheduling systems
+- **Document Output**: Generates properly formatted ARCP and SWMS documents
+- **Enhanced Features**: Additional validation and compliance checking capabilities
 
-**Risk Mitigation:**
-- Builds on proven workflow rather than replacing it
-- Maintains expert review processes for safety compliance
-- Provides manual override capability for all automated functions
-- Uses existing approved templates as foundation
+### What Gets Automated
 
-#### **ServiceM8 Integration Strategy**
+**From Phase 1 Data:**
+- Job addresses and site details
+- Hazard identification and safety requirements
+- Equipment and PPE specifications
+- Client-specific compliance needs
 
-**Phase 1 Implementation:**
-- **Quote Data Extraction**: Automatic population of job details, client information, work scope
-- **Document Triggers**: Automated alerts for jobs approaching documentation requirements
-- **Future Enhancement Readiness**: Architecture designed for expanded field data capture from future quoting system improvements
+**From Phase 2 Data:**
+- Confirmed supervisor assignments
+- Qualified personnel allocations
+- Scheduled dates and timeframes
+- Resource availability verification
 
-**Integration Challenges Acknowledged:**
-- ServiceM8 API limitations require workaround strategies
-- Manual supervisor assignment until scheduling system integration (separate future project)
-- Equipment availability remains manual estimation until inventory system implementation
-
-#### **Intelligent Guidance System**
-
-**High-Match Scenarios (80%+ similarity):**
-- Template automatically pre-populated
-- User reviews 5-8 key difference fields
-
-**Medium-Match Scenarios (50-80% similarity):**
-- System suggests closest template with highlighted variations
-- Guided prompts for key differences
-
-**Low-Match/Complex Scenarios (<50% similarity or high-value jobs):**
-- Guided form completion with intelligent field suggestions
-- Manual expert review maintained for quality assurance
-- Full manual override capability preserved
+**Document Creation:**
+- Automatic template selection based on job type
+- Pre-population of 70-80% of document fields
+- Compliance validation and WorkSafe requirement checking
+- Integration with existing hygienist review workflow
 
 #### **Quality Assurance Framework**
 
@@ -251,27 +232,19 @@ Rather than building document generation from scratch, our approach digitalises 
 - Role-based access controls
 - Complete audit trail maintenance
 
-### Implementation Benefits
+### Strategic Implementation Value
 
-**Immediate Value:**
-- Reduces quote preparation time from 2-3 hours to 45 minutes
-- Eliminates manual cost estimation errors and improves accuracy to 95%
-- Provides real-time resource availability and qualification matching
-- Creates comprehensive job specifications at source
-- **Enables Phase 2**: Structured data feeds intelligent safety documentation
+**Immediate Operational Benefits:**
+- **Documentation Efficiency**: Reduces safety document creation from 2-3 hours to 30-45 minutes
+- **Error Elimination**: Removes manual transcription errors between scheduling and documentation systems
+- **Compliance Assurance**: Automated validation ensures consistent WorkSafe and client requirement adherence
+- **Resource Optimisation**: Intelligent personnel assignment using verified qualification and availability data
 
-**Long-term Advantages:**
-- 15% quote win rate improvement through higher quality, more accurate quotes
-- Eliminates data quality issues that propagate through all subsequent phases
-- **Digital Transformation Foundation**: Quality data at source enables precision in mobile operations (Phase 2), intelligent scheduling (Phase 3), and integrated platform (Phase 4)
-- Positions business for major infrastructure project opportunities with comprehensive digital capability
-- Creates systematic capture of historical job patterns and lessons learned
-
-**Risk Mitigation:**
-- Builds on proven workflow rather than replacing it
-- Maintains expert review processes for safety compliance
-- Provides manual override capability for all automated functions
-- Uses existing approved templates as foundation
+**Long-term Business Advantages:**
+- **Scalability Foundation**: Systems capable of handling 50-100% workload increases without proportional documentation overhead
+- **Knowledge Preservation**: Systematic capture of expert safety decisions creates organisational asset independent of individual staff
+- **Competitive Differentiation**: Rapid, accurate documentation capability enables competitive advantage in tender processes
+- **Risk Mitigation**: Reduced single-person dependency and automated compliance checking minimise regulatory and operational risks
 
 ### Document Types Required
 
