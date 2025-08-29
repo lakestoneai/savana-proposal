@@ -130,7 +130,35 @@ This repository maintains complete project documentation with:
 
 ---
 
+## Quick Start Guide
+
+### For AI Assistants
+1. **Always read `project-intelligence.md` first** for complete project context
+2. **Follow `CLAUDE.md` instructions** for workflow protocols and session management
+3. **Check `SYNC-CONTROL-GUIDE.md`** before making any document changes
+4. **Maintain budget integrity** at exactly $100,000 (ex GST)
+5. **Preserve Australian English** throughout all documentation
+
+### For Project Stakeholders
+1. **Executive Overview**: Read `README.md` and `savana-master-project.md`
+2. **Phase Details**: Review individual `savana-phase*.md` files for implementation specifics
+3. **Project Intelligence**: Access `project-intelligence.md` for comprehensive project knowledge
+4. **Change Management**: Follow `SYNC-CONTROL-GUIDE.md` procedures for any modifications
+
+---
+
+## Repository Security
+
+- **Authentication**: Uses GitHub Personal Access Token for secure access
+- **Branch Protection**: Main branch protected with required reviews
+- **Commit Standards**: All commits include Claude Code attribution
+- **Version Control**: Complete audit trail of all project modifications
+- **Backup Strategy**: Automated GitHub backup with local working copy
+
+---
+
 **Project Status**: Active development phase  
+**Repository URL**: https://github.com/lakestoneai/savana-proposal  
 **Last Updated**: August 29, 2025  
 **Next Milestone**: October 1, 2025 - Phase 1 commencement  
 **Repository Maintainer**: Lakestone AI
