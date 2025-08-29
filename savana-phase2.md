@@ -66,38 +66,118 @@ With Phase 1's comprehensive quote data flowing into ServiceM8, scheduling can b
 
 ### Core Philosophy
 
-Phase 2 transforms scheduling operations from manual Excel-based processes to an automated, intelligent platform that leverages Phase 1's comprehensive ServiceM8 data integration, providing real-time scheduling optimisation and resource allocation for major project delivery capability.
+**Enhance, Don't Replace**: Transform Savana's existing dual Excel spreadsheet workflow through intelligent automation and API integration while preserving the familiar interface and processes teams already know. We're not introducing new scheduling software - we're making their current approach smart, connected, and automated.
 
-### Key Capabilities
+**Familiar Interface, Intelligent Backend**: Maintain the Excel-like look and feel that staff understand while adding comprehensive API integration with ServiceM8, ConnectTeam, and OneDrive to eliminate manual data entry and enable intelligent resource allocation.
 
-**Intelligent Assignment Engine:**
-- Automatic qualification matching
-- Location-based worker optimisation
-- Conflict detection (worker preferences)
-- "Plan B" job suggestions
+### Implementation Options
 
-**Integrated Dashboard:**
-- Drag-and-drop scheduling interface
-- Real-time multi-system synchronisation
-- Resource utilisation visualisation
-- Mobile accessibility
+Savana can choose between two approaches based on their preference for change management and technical architecture:
 
-**Automated Compliance:**
-- Qualification expiry warnings
-- Site-specific induction tracking
-- Critical ticket verification
-- Audit trail maintenance
+**Option 1: Enhanced Microsoft Environment Integration**
+- Transform existing Excel spreadsheets into "smart sheets" within Microsoft ecosystem
+- Maintain current files and familiarity while adding API automation
+- Leverage Microsoft Power Platform for integration capabilities
+- Minimal visual change, maximum automation enhancement
+
+**Option 2: Bespoke Web-Based Scheduling Interface**
+- Custom HTML/web application that looks exactly like existing Excel spreadsheets
+- Full cloud-based architecture with drag-and-drop functionality
+- Complete API integration with role-based security permissions
+- Excel appearance with enterprise-grade capabilities
+
+### Option 1: Enhanced Microsoft Environment Integration
+
+**Approach**: Integrate both current spreadsheets into one master Excel environment with comprehensive API connectivity.
+
+**Core Components:**
+- **Unified Master Spreadsheet**: Combines job overview and employee allocation into single intelligent workbook
+- **ServiceM8 API Integration**: Jobs automatically populate from ServiceM8 (no more manual transcription)
+- **ConnectTeam API Integration**: Employee qualifications and availability auto-update in real-time
+- **OneDrive Integration**: Folder locations and project files automatically linked and accessible
+- **Microsoft Power Platform**: Workflow automation and business process flows
+
+**Key Features:**
+- Familiar Excel interface with enhanced formulas and conditional formatting
+- Automated data refresh from all integrated systems
+- Intelligent conflict detection and overbooking prevention
+- Real-time employee qualification verification
+- Automated folder creation and document management via OneDrive
+
+**Benefits:**
+- Minimal change management - looks and feels like current Excel
+- Leverages existing Microsoft licences and infrastructure
+- Maintains offline capability with cloud sync
+- Preserves institutional knowledge of Excel workflows
+
+### Option 2: Bespoke Web-Based Scheduling Interface
+
+**Approach**: Develop custom cloud-based scheduling system that replicates exact look and feel of current Excel spreadsheets but with full enterprise integration.
+
+**Core Components:**
+- **Excel-Like Web Interface**: HTML/JavaScript application mimicking familiar spreadsheet layout
+- **Full API Integration**: Real-time connections to ServiceM8, ConnectTeam, and OneDrive
+- **Cloud-Based Architecture**: AWS/Azure hosting with ISO 27001 compliance
+- **Drag-and-Drop Functionality**: Enhanced user experience while maintaining familiarity
+- **Role-Based Security**: Multi-user access with appropriate permissions
+
+**Key Features:**
+- Identical visual appearance to current Excel spreadsheets
+- Real-time collaboration with multiple simultaneous users
+- Advanced scheduling intelligence and conflict resolution
+- Comprehensive audit trails and compliance reporting
+- Mobile-responsive design for field access
+- Automated backup and disaster recovery
+
+**Benefits:**
+- Familiar interface reduces training requirements
+- Enterprise-grade scalability and security
+- Real-time collaboration capabilities
+- Complete API integration with no Microsoft dependencies
+- Enhanced mobile access for field teams
 
 ### Daily Operational Workflow
 
-**Phase 3 Process:**
+**Transformed Phase 2 Process (Both Options):**
 
-1. **Job Intake**: System automatically pulls job details from ServiceM8 with location and requirements
-2. **Qualification Matching**: ConnectTeam integration verifies worker certifications and availability
-3. **Intelligent Assignment**: Algorithm suggests optimal worker allocation based on location, skills, and preferences
-4. **Conflict Resolution**: System detects scheduling conflicts and provides "Plan B" alternatives
-5. **Real-time Updates**: Changes sync across all systems immediately with notifications
-6. **Performance Monitoring**: Dashboard shows resource utilisation and scheduling efficiency metrics
+1. **Automated Job Intake**: 
+   - ServiceM8 jobs automatically populate scheduling interface (no more manual transcription)
+   - Comprehensive job data from Phase 1 includes safety requirements, resource needs, and site conditions
+
+2. **Intelligent Employee Matching**:
+   - ConnectTeam integration provides real-time qualification verification
+   - Employee availability, skills, and certification status automatically displayed
+   - Historical job performance patterns inform assignment suggestions
+
+3. **Smart Resource Allocation**:
+   - System prevents overbooking through automated resource counting
+   - Qualification requirements matched against employee certifications
+   - Location-based optimization reduces travel time and costs
+
+4. **Real-time Collaboration**:
+   - Multiple team members can view/update schedule simultaneously
+   - Changes sync across ServiceM8, ConnectTeam, and OneDrive instantly
+   - Automated notifications for schedule changes and conflicts
+
+5. **Automated Documentation**:
+   - OneDrive folder creation and document linking
+   - Project files automatically associated with scheduled jobs
+   - Safety documentation preparation triggered by scheduling
+
+6. **Business Continuity**:
+   - All scheduling logic systematically captured (not person-dependent)
+   - Complete audit trail of scheduling decisions
+   - Backup scheduling capability for any team member
+
+**Option 1 Workflow (Microsoft Integration):**
+- Familiar Excel interface with smart formulas and automated data refresh
+- Drag-and-drop within Excel cells with intelligent validation
+- Power Platform workflows trigger OneDrive folder creation and notifications
+
+**Option 2 Workflow (Bespoke Web Interface):**
+- Web-based drag-and-drop with Excel-like grid appearance
+- Real-time collaborative editing with role-based permissions
+- Advanced scheduling algorithms with conflict resolution suggestions
 
 ## Technology & Compliance
 
