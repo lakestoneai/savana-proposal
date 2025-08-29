@@ -181,84 +181,149 @@ Savana can choose between two approaches based on their preference for change ma
 
 ## Technology & Compliance
 
-### Technical Platform
+### Technical Platform Options
 
-**System Architecture:**
-- Cloud-based scheduling engine
-- RESTful API connections
-- Real-time data synchronisation
-- Mobile-responsive web interface
-- Offline capability with sync
+**Option 1: Microsoft Environment Integration Architecture**
+
+**System Components:**
+- Enhanced Excel workbooks with Microsoft Power Platform integration
+- Power Automate workflows for API orchestration
+- Microsoft Graph API for OneDrive integration
+- Azure hosting for cloud connectivity and data synchronisation
+- Power BI dashboards for scheduling analytics
 
 **Core Technical Features:**
-- Drag-and-drop scheduling interface (Excel-like familiarity)
-- Intelligent resource optimisation algorithms
-- Real-time conflict detection and resolution
-- Automated qualification matching system
-- Location-based worker assignment optimisation
+- Excel-native formulas enhanced with real-time API data
+- Conditional formatting for conflict detection and qualification matching
+- Power Platform triggers for automated folder creation
+- SharePoint integration for collaborative scheduling
+- Offline Excel capability with automatic cloud sync
 
-**API Integrations:**
+**Option 2: Bespoke Web-Based Architecture**
 
-**ConnectTeam Integration:**
-- Worker qualifications and certifications
-- Training expiry dates
-- Site-specific inductions
-- Real-time availability
+**System Components:**
+- HTML5/JavaScript web application with Excel-like grid interface
+- Node.js/Python backend with RESTful API architecture
+- Cloud hosting (AWS/Azure) with auto-scaling capabilities
+- PostgreSQL database with real-time synchronisation
+- Progressive Web App (PWA) technology for mobile access
 
-**ServiceM8 Integration:**
-- Job details and requirements
-- Location data
-- Customer information
-- Job status updates
+**Core Technical Features:**
+- Drag-and-drop scheduling with Excel-identical appearance
+- Real-time collaborative editing with conflict resolution
+- Advanced scheduling algorithms with AI-powered suggestions
+- Mobile-responsive design for field team access
+- Comprehensive role-based security and permissions
+
+### Comprehensive API Integration Strategy
+
+**ServiceM8 API Integration (Both Options):**
+- OAuth 2.0 authentication for secure access
+- Automated job data retrieval from Phase 1 enhanced quotes
+- Real-time job status updates and scheduling synchronisation
+- Customer information and location data integration
+- Eliminates manual transcription (30-60 minutes per job)
+
+**ConnectTeam API Integration (Both Options):**
+- Real-time employee qualification and certification verification
+- Training expiry date monitoring with automated alerts
+- Site-specific induction requirement tracking
+- Employee availability status and scheduling conflicts
+- Award rate and compliance data integration
+
+**OneDrive API Integration (Both Options):**
+- Automated project folder creation based on scheduled jobs
+- Document linking and file management automation
+- Version control and collaborative document editing
+- Centralised storage with appropriate access permissions
+- Integration with safety documentation workflows
 
 ### Compliance Standards
 
-**ISO 45001:2018 Safety Management System:**
-- Automated worker qualification tracking and verification
-- Safety requirement matching in scheduling assignments
-- Systematic audit trail for all scheduling decisions
+**ISO 45001:2018 Safety Management System (Both Options):**
+- Automated worker qualification verification via ConnectTeam integration
+- Safety requirement matching based on Phase 1 enhanced ServiceM8 data
+- Systematic audit trail for all scheduling decisions and changes
+- Real-time compliance monitoring and violation prevention
 - Integration with existing safety management workflows
 
 **ISO 27001:2013 Information Security:**
-- Secure API connections with encrypted data transmission
-- Role-based access controls for scheduling system users
-- Integration security protocols with ServiceM8/ConnectTeam
-- Complete audit logging for all scheduling activities and changes
 
-**Compliance Automation:**
-- Qualification expiry warnings and tracking
-- Site-specific induction requirement verification
-- Critical ticket compliance checking
-- Automated compliance reporting capabilities
+*Option 1 (Microsoft Integration):*
+- Microsoft Azure security infrastructure and compliance certification
+- Microsoft 365 native security features and encryption
+- Role-based access controls via Azure Active Directory
+- Microsoft Graph API security protocols for data access
+
+*Option 2 (Bespoke Web Solution):*
+- End-to-end encrypted data transmission and storage
+- Australian-hosted cloud infrastructure for data sovereignty
+- Custom role-based access controls with multi-factor authentication
+- Complete audit logging for all scheduling activities and API interactions
+
+**Business Continuity Compliance:**
+- Systematic capture of scheduling knowledge (eliminates single-person dependency)
+- Comprehensive backup and disaster recovery procedures
+- Multi-user access with appropriate permission levels
+- Complete operational documentation and process standardisation
+
+**API Security Standards (Both Options):**
+- OAuth 2.0 authentication for all external API connections
+- Encrypted data transmission between all integrated systems
+- API rate limiting and error handling for system stability
+- Comprehensive logging of all API transactions and data exchanges
 
 ### Implementation Benefits
 
-**Immediate Value:**
+**Immediate Business Impact:**
 
-- **Eliminate Manual Updates**: End continuous "by the minute" Excel scheduling updates
-- **Integrated Compliance**: Leverage Phase 1's automated qualification tracking and safety requirements
-- **Real-time Field Integration**: Use Phase 2's mobile field data for dynamic scheduling adjustments
-- **Conflict Detection**: Automatic identification of scheduling conflicts and worker preferences
-- **Resource Optimisation**: Location-based assignment reduces travel time and costs
-- **Major Project Readiness**: Intelligent resource allocation supports large infrastructure project demands
+- **End Dual Spreadsheet Chaos**: Replace two disconnected Excel files with one unified intelligent system
+- **Eliminate Manual Transcription**: ServiceM8 jobs auto-populate (saves 30-60 minutes per job)
+- **Prevent Overbooking Failures**: Automated resource counting prevents documented operational failures
+- **Business Continuity Protection**: Systematic knowledge capture eliminates single-person dependency risk
+- **Real-time Collaboration**: Multiple users can schedule simultaneously with conflict resolution
+- **ConnectTeam Integration**: Instant qualification verification replaces manual checking (1-2 hours/day saved)
 
-**Long-term Advantages:**
+**Operational Transformation:**
 
-- **Strategic Resource Planning**: Utilise 95% resource efficiency through intelligent allocation
-- **Major Project Capacity**: Scaling capability for large infrastructure project requirements
-- **Phase 4 Foundation**: Intelligent scheduling enables comprehensive project delivery platform
-- **Advanced Scheduling Intelligence**: Machine learning algorithms analyze historical patterns to predict optimal resource allocation, worker performance metrics, and seasonal demand fluctuations. The system continuously improves scheduling accuracy through adaptive learning from completed jobs, weather patterns, and client preferences.
-- **Predictive Analytics**: Historical data analysis for improved scheduling decisions
-- **Cost Optimisation**: Reduced labour costs through efficient resource utilisation
-- **Data Integration**: Seamlessly connects Phase 1 compliance and Phase 2 mobile data
+- **Scheduling Time Reduction**: From 4-6 hours/day continuous maintenance to <1 hour/day
+- **Emergency Reallocation**: <15 minutes response time (from 1-3 hours manual rework)
+- **Resource Utilisation**: >95% efficiency through intelligent location-based assignment
+- **Schedule Conflicts**: <2 per week through automated conflict detection
+- **OneDrive Automation**: Automated folder creation and document management
+- **API-Driven Intelligence**: Real-time data from ServiceM8, ConnectTeam, and OneDrive
+
+**Implementation Flexibility:**
+
+**Option 1 Benefits (Microsoft Integration):**
+- Minimal change management with familiar Excel interface
+- Leverages existing Microsoft licenses and infrastructure  
+- Maintains offline Excel capability with cloud sync
+- Power Platform workflow automation
+- Immediate familiarity reduces training requirements
+
+**Option 2 Benefits (Bespoke Web Solution):**
+- Enterprise-grade scalability and security
+- Real-time collaborative editing capabilities
+- Advanced scheduling algorithms with AI suggestions
+- Mobile-responsive access for field teams
+- Complete customisation to business requirements
+
+**Strategic Advantages:**
+
+- **Major Project Capability**: Intelligent resource allocation supports infrastructure project scaling
+- **Knowledge Systematisation**: All scheduling logic captured and documented (not person-dependent)
+- **Audit Confidence**: Complete digital trail for compliance and operational review
+- **Competitive Advantage**: Respond to tenders faster with accurate resource planning
+- **Growth Enablement**: System handles 10x scheduling volume without additional admin burden
 
 **Risk Mitigation:**
 
-- **Familiar Interface**: Excel-like drag-and-drop interface ensures user adoption
-- **Parallel Running**: Two-week overlap with Excel system during transition
-- **Manual Override**: Ability to manually adjust automated scheduling decisions
-- **API Reliability**: Redundancy planning and fallback procedures for integration failures
-- **Comprehensive Training**: Video tutorials, quick reference guides, and dedicated support
+- **Excel Familiarity**: Both options maintain familiar spreadsheet interface and workflows
+- **Gradual Transition**: Phased rollout with parallel Excel system during adoption
+- **Manual Override**: Ability to manually adjust all automated scheduling decisions
+- **API Resilience**: Fallback procedures and offline capability for system stability
+- **Business Continuity**: Multiple trained users can operate system (removes single-person risk)
 
 ## Implementation Plan (December 9, 2025 - February 3, 2026)
 
