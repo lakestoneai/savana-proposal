@@ -1,0 +1,36 @@
+# Temporary files
+.tmp.drivedownload/
+.tmp.driveupload/
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+
+# Claude internal files
+.claude/
+
+# Obsidian files
+.obsidian/
+
+# Large binary files (keep local but don't track in git)
+*.docx
+*.pdf
+*.srt
+
+# Backup files
+*~ 
+*-Copy.md
+*.gdoc
+*.base
+
+# Build files
+dist/
+build/
+node_modules/
