@@ -7,10 +7,17 @@
 
 ## Executive Summary
 
-**Project Goal**: 
+**Project Goal**: Transform ServiceM8's basic quote module into an intelligent data capture platform by developing an Android-native application that feeds comprehensive, structured information into ServiceM8 from the first customer touchpoint, enabling automation across safety, scheduling, and resource management while preserving valuable MYOB integration and historical data.
 
 **Expected Impact**:
-- **
+- **Immediate Android Enablement**: 100% of field workforce can capture digital quotes (vs 0% currently)
+- **Quality Data at Source**: Every quote captures 8+ critical data points enabling downstream automation
+- **Manual Processing Elimination**: 6-8 hours saved per quote through structured data capture
+- **Safety Compliance Automation**: SWMS pre-populated from quote-stage hazard identification
+- **Resource Optimisation**: Automatic qualification matching and equipment booking from quote data
+- **ServiceM8 Enhancement**: $6,000/year system transformed from limitation to competitive advantage
+- **Major Project Capability**: Structured data capture enables infrastructure project bidding
+- **ROI Within 12 Months**: $76,400 annual savings from operational efficiency gains
 
 ## ServiceM8 Current State Analysis
 
@@ -170,66 +177,108 @@
 ### Technical Platform
 
 **System Architecture:**
--
+- Android-native mobile application (React Native/Flutter)
+- RESTful API middleware layer for ServiceM8 integration
+- Cloud-based data synchronisation service (AWS/Azure)
+- Offline-first architecture with 48-hour local storage
+- Encrypted data cache for field operations
 
 **Core Technical Features:**
--
+- Structured data capture forms with conditional logic
+- Photo capture with annotation and GPS tagging
+- Digital signature capability for customer approval
+- Automatic sync when connectivity restored
+- Real-time validation against business rules
 
 **API Integrations:**
 
-**ConnectTeam Integration:**
--
+**ServiceM8 API Integration (Primary):**
+- OAuth 2.0 authentication for secure connection
+- Quote creation with enriched data structure
+- Custom field mapping for captured requirements
+- Attachment upload for photos and signatures
+- Webhook notifications for quote status changes
 
-**MYOB Integration:**
-- 
+**ConnectTeam Integration:**
+- Real-time qualification lookup during quote creation
+- Technician availability checking
+- Certification expiry validation
+- Training compliance verification
+- Award rate confirmation for accurate pricing
+
+**MYOB Integration (Preserved via ServiceM8):**
+- Existing ServiceM8→MYOB workflow maintained
+- No direct MYOB integration required
+- Quote→Job→Invoice→Payment flow unchanged
+- Line item synchronisation continues as-is
+- Payment reconciliation automation preserved 
 
 ### Compliance Standards
 
 **ISO 45001:2018 Safety Management System:**
-- Complete integration with Phase 1 safety documentation automation
-- Digital job completion triggers safety compliance verification
-- Comprehensive audit trail for all job lifecycle activities
-- Systematic safety performance monitoring and reporting
+- Safety requirements captured at quote stage for proactive compliance
+- Automatic SWMS selection based on identified hazards
+- PPE requirements documented before job commencement
+- Digital audit trail from quote through job completion
+- Systematic risk assessment data for continuous improvement
 
 **ISO 27001:2013 Information Security:**
-- End-to-end encrypted data transmission and storage
-- Role-based access controls with multi-factor authentication
+- End-to-end encryption for mobile app data transmission
+- OAuth 2.0 authentication with ServiceM8 API
 - Australian-hosted cloud infrastructure for data sovereignty
-- Complete audit logging for all system activities
+- Role-based access controls for quote creation and approval
+- Complete audit logging of all data capture activities
+
+**WorkSafe Compliance:**
+- Structured hazard identification during quote assessment
+- Qualification requirements captured for compliance verification
+- Site-specific safety requirements documented upfront
+- Digital evidence trail for regulatory inspections
+- Proactive compliance rather than reactive scrambling
 
 **Split Entity Compliance:**
-- Separate data handling for Savana/Savana Environmental
-- Contractor vs employee classification management
-- Automated compliance reporting for dual entity structure
-- Clear audit trails for WorkSafe and regulatory requirements
+- Entity selection at quote stage (Savana vs Savana Environmental)
+- Automatic contractor/employee classification based on entity
+- Proper cost allocation from initial quote
+- Clear audit trails for dual entity regulatory requirements
+- Simplified reporting for each entity's obligations
 
 ### Implementation Benefits
 
 **Immediate Value:**
 
-- **Complete Digital Transformation**: Integrates all Phase 1-3 capabilities into unified ServiceM8 replacement
-- **Major Project Capability**: End-to-end digital platform ready for large infrastructure projects
-- **Unified Phase Integration**: Combines safety automation (Phase 1), mobile operations (Phase 2), and intelligent scheduling (Phase 3)
-- **Real-time Job Costing**: Instant visibility leveraging all previous phase data integration
-- **Automated Workflow**: From Phase 1 compliance through Phase 2 mobile completion to Phase 3 resource optimization
-- **ConnectTeam Foundation**: Built upon existing successful HR platform investment
+- **Android Workforce Enabled**: 100% of field team can capture quotes (vs 0% currently)
+- **Quality Data from Day One**: Every quote contains all 8+ critical data points
+- **ServiceM8 Investment Protected**: Enhances rather than replaces $6,000/year system
+- **MYOB Integration Preserved**: Proven quote→invoice→payment workflow continues
+- **Instant Compliance Readiness**: Safety requirements captured at quote for immediate SWMS preparation
+- **Manual Processing Eliminated**: 6-8 hours saved per quote through structured data capture
 
-**Long-term Advantages:**
+**Operational Transformation:**
 
-- **Major Project Supply Chain Ready**: Complete digital capability for large infrastructure project delivery
-- **Digital Transformation Complete**: All operational aspects integrated from Phase 1 foundation through Phase 4 delivery
-- **Competitive Market Position**: Technology leadership positioning for major project opportunities
-- **Comprehensive Data Integration**: Phase 1 compliance + Phase 2 mobile + Phase 3 scheduling intelligence
-- **Scalable Growth Platform**: Built on proven phase-by-phase implementation success
-- **Future Enhancement Platform**: Solid foundation for IoT integration and predictive analytics
+- **Safety Documentation**: From 3-4 hours manual creation to automated pre-population
+- **Resource Scheduling**: From blind allocation to informed assignment based on requirements
+- **Equipment Management**: From day-of scrambling to proactive booking at quote stage
+- **Qualification Matching**: From manual checking to automatic ConnectTeam verification
+- **Split Entity Management**: From post-job separation to upfront classification
+- **Customer Experience**: Professional digital quotes with photos, requirements, and instant acceptance
+
+**Long-term Strategic Value:**
+
+- **Major Project Readiness**: Structured data capture meets infrastructure project requirements
+- **Competitive Advantage**: Quote faster and more accurately than paper-based competitors
+- **Knowledge Building**: Historical quote data improves future pricing and requirements
+- **Integration Platform**: Quality data enables future automation across all systems
+- **Scalable Growth**: System handles 10x quote volume without additional admin burden
+- **Audit Confidence**: Complete digital trail from quote to completion for compliance
 
 **Risk Mitigation:**
 
-- **Familiar Entry Point**: Maintain ConnectTeam login process for user acceptance
-- **Feature Parity Plus**: Provide all ServiceM8 functionality plus significant improvements
-- **Phased Implementation**: Staged rollout with comprehensive testing and validation
-- **Comprehensive Training**: Multi-stage training programme with ongoing support
-- **Performance Assurance**: Sub-2 second response times with 99.9% uptime guarantee
+- **Minimal Change Management**: ServiceM8 workflow remains unchanged for office staff
+- **Offline Reliability**: 48-hour offline capability ensures field productivity
+- **Gradual Adoption**: Pilot with select estimators before full rollout
+- **ServiceM8 Fallback**: Can revert to basic ServiceM8 quotes if needed
+- **Proven Technology**: React Native/Flutter are mature, stable platforms
 
 ## Implementation Plan (February 3 - May 5, 2026)
 
