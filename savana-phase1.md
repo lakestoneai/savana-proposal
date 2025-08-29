@@ -1,633 +1,296 @@
-# Phase 1: Safety Documentation Automation
+# Phase 1: Automate Quotation and Data Structure into ServiceM8
 
-**Project Duration:** 8 Weeks  
-**Implementation Period:** Phase 1 - Foundation Phase of Digital Supply Chain Readiness  
-**Start Date:** October 1, 2025  
-**End Date:** November 26, 2025
+**Project Duration:** 13 Weeks  
+**Implementation Period:** Phase 1 - Automate Quotation and Data Structure into ServiceM8
+**Start Date:** February 3, 2026  
+**End Date:** May 5, 2026
 
 ## Executive Summary
 
-**Project Goal**: Digitalise Savana's proven safety documentation workflow through intelligent template matching and automated pre-population, reducing document creation time from hours to minutes per day while maintaining HSEQ-approved compliance standards and expert validation processes.
-
-**Client Profile:**
-- **Company:** Savana Environmental (asbestos removal contractor)
-- **Location:** Perth, Western Australia
-- **Client Types Served:**
-  - Property management companies
-  - Insurance companies  
-  - Principal builders (subcontracting demolition)
-  - Local government/councils
-  - Individual homeowners
-  - Federal facilities (Defence bases - special permit requirements)
+**Project Goal**: Enhance ServiceM8 with a custom field management platform that integrates all previous phases (safety automation, mobile operations, intelligent scheduling) with ConnectTeam's HR capabilities and MYOB's financial systems, delivering complete digital transformation for major project supply chain capability.
 
 **Expected Impact**:
-- Improve compliance consistency across all jobs
-- Enable faster document generation and review cycles
-- Reduce errors from manual data entry
-- Establish ISO 45001:2018 compliant Safety Management System framework
-- Ensure ISO 27001:2013 data security compliance for all documentation
-- Create auditable compliance trail for WorkSafe and major project client requirements
-- **Foundation for Digital Transformation**: Enables mobile field operations (Phase 2), intelligent scheduling (Phase 3), and integrated project delivery (Phase 4)
+- **Complete Digital Transformation**: Integrates all Phase 1-3 capabilities into unified platform
+- **Major Project Readiness**: End-to-end digital capability for large infrastructure projects
+- Eliminate paper-based job completion entirely through Phase 1-2 integration
+- Save additional 20+ hours/week through unified platform combining all previous phases
+- Enable real-time job costing leveraging Phase 3's intelligent scheduling
+- Reduce invoicing delays from days to hours using Phase 1's automated compliance
+- **ServiceM8 Replacement**: Purpose-built solution incorporating all digital transformation phases
 
-## Critical Workflow Discoveries
+## ServiceM8 Current State Analysis
 
-### Document Review Process
+### ServiceM8 Strengths for Savana
 
-- **Hygienist Review**: All documents go to hygienist first for approval
-- **Client Review**: Some clients review thoroughly, others just approve
-- **Revision Tracking**: Draft numbers increment with each revision
-- **Copy Requirements**: Hygienists need copies before work starts (forms part of clearance)
+| Strength | Current Capability | Business Value | Integration Quality |
+|----------|-------------------|----------------|-------------------|
+| **Multi-Year Data Repository** | Extensive historical job, client, and pricing data | Invaluable business intelligence foundation | Excellent - years of proven data |
+| **MYOB Financial Integration** | Seamless quote→job→invoice→payment workflow | Complete financial lifecycle automation | Excellent - proven integration |
+| **Job Lifecycle Management** | Quote acceptance converts to job with unique job numbers | Professional project tracking and organisation | Excellent - established workflow |
+| **Document Storage Capability** | File attachment and storage within job records | Centralised job documentation and history | Good - integrated file management |
+| **Cost-Effective Solution** | Low monthly subscription for comprehensive functionality | Exceptional value for money and feature set | Excellent - proven cost efficiency |
+| **Accounting Tool Integration** | Built-in accounting capabilities with MYOB sync | Streamlined financial processes and reporting | Excellent - reduces system complexity |
+| **Payment Status Automation** | Automatic status updates from MYOB reconciliation | Real-time visibility of job payment status | Excellent - automated cash flow tracking |
 
-### Training & Qualification Management
+**Key Integration Success**: ServiceM8→MYOB workflow represents a **proven, stable foundation** that has served Savana effectively for multiple years with reliable quote-to-cash automation.
 
-- **ConnectTeam Integration**: Houses all training records and expiry dates
-- **Scheduling Impact**: Workers can't be scheduled without proper qualifications
-- **Site-Specific Inductions**: Hundreds of client-specific inductions tracked separately
-- **Critical Tickets**: Some qualifications are job-critical (e.g., EWP, working at heights)
+### Current System Limitations
 
-### Site-Specific Requirements
+| Area | Current Process | Time Impact | Risk Level |
+|------|----------------|-------------|------------|
+| ServiceM8 Limitations | No Android app, limited API, no completion trigger | Variable delays | High - incomplete automation |
+| Job Completion | Still paper-based despite digital systems | 2-3 hours/day | Critical - compliance gap |
+| Quote to Invoice | Manual data transfer between systems | 1-2 hours/day | Medium - billing delays |
+| Field Data Capture | Limited to photos, no structured forms | Lost opportunities | Medium - quality issues |
+| Split Entity Management | Manual tracking Savana/Savana Environmental | 30 mins/day | High - compliance risk |
 
-**Permit Variations:**
-- Hospital sites: Hot works permits for grinding
-- UWA: Working at heights permits
-- Defence bases: Asbestos permits required
-- Residential: Generally no special permits
+### Current Workflow Gaps
 
-**PPE Requirements:** Vary by site 
+- **Field Worker Systems**: Field workers use ConnectTeam for time but ServiceM8 for jobs (disconnected)
+- **Job Completion Trigger**: No digital job completion trigger for invoicing
+- **Safety Documentation**: Safety documents exist digitally but aren't linked to job completion
+- **MYOB Integration**: MYOB integration is one-way only (can't update or delete)
+- **Job Profitability**: No real-time visibility of job profitability
 
-**Emergency Planning:** Manual creation using Google Maps screenshots
+## Proposed Solution: Custom Field Management Platform
 
-## Compliance Framework Requirements
+### Core Philosophy
 
-### Safety Management System (SMS) Integration
+Phase 4 transforms field operations from disconnected ServiceM8/paper-based workflows to a unified digital platform that integrates Phase 1's safety automation, Phase 2's mobile capabilities, and Phase 3's intelligent scheduling with ConnectTeam's successful HR capabilities whilst providing complete job lifecycle management and seamless MYOB integration for major project delivery capability.
 
-- Align all documentation with ISO 45001:2018 requirements
-- Incorporate AS/NZS 4801:2001 Safety Management Systems standards
-- Implement systematic hazard identification and risk assessment
-- Enable continuous improvement tracking
-- Establish performance monitoring metrics
-- Ensure WorkSafe audit compatibility
-- Standardised documentation across all job types
+### Key Capabilities
 
-### Information Security (ISO 27001:2013)
+**Mobile-First Job Management:**
+- Digital job cards with pre-populated quote data
+- Structured hazard reporting and safety documentation
+- Material usage tracking with photo annotations
+- Customer signature capture and approval workflow
 
-- Encrypted storage for all safety documentation
-- Access control and audit logging
-- Data classification and handling procedures
-- Secure API connections for all integrations
-- Role-based access control (RBAC)
-- Regular security audits and compliance reviews
+**ConnectTeam Integration Hub:**
+- Single sign-on from ConnectTeam for familiar experience
+- Automatic timesheet data flow and geo-location sharing
+- Training compliance verification and unified mobile experience
+- Push notification coordination across platforms
 
-### Job Lifecycle to Documentation Trigger
+**Quote to Cash Automation:**
+- Advanced quoting with two-way MYOB sync
+- Job completion triggers automatic invoice generation
+- Variation capture in field with real-time cost calculation
+- Direct MYOB push with reconciliation capabilities
 
-1. Quote created in ServiceM8 by Leon/Cliff
-2. Quote accepted (verbal or work order)
-3. Job manually added to scheduling system
-4. **Document Creation Trigger**: Jobs within 2-3 weeks of scheduled start
-5. ARCP/SWMS creation begins (currently "day before" acceptable but risky)
-6. Documents sent to hygienist for review
-7. Upload to OneDrive and print physical copies for field technicians to have hard copies
+### Daily Operational Workflow
 
-### Current Manual Process
+**Phase 4 Process:**
 
-1. **Find Similar Job**: Search through previous projects to identify similar work type and client
-2. **Copy Template Documents**: Copy similar job's ARCP/SWMS documents from OneDrive
-3. **Manual Field Updates**: Update addresses, dates, operatives, job numbers across all sections
-4. **Emergency Plan Creation**: Create evacuation plan from Google Maps screenshots with manual markup
-5. **Supervisor Assignment**: Manually guess supervisor assignment (not determined at quote stage)
-6. **Training Verification**: Check ConnectTeam for worker qualifications and site-specific inductions
-7. **Site Requirements Review**: Verify permits, PPE requirements, and client-specific conditions
-8. **Hygienist Submission**: Send completed documents for mandatory hygienist review
-9. **Revision Processing**: Handle hygienist feedback and client review comments
-10. **Document Finalisation**: Upload final versions to OneDrive and print physical copies for field use
+1. **ConnectTeam Login**: Field workers log into ConnectTeam which triggers availability in custom platform
+2. **Digital Job Access**: Access safety documents from Phase 1 automation linked to specific jobs
+3. **Digital Job Cards**: Complete jobs using structured data capture forms, replacing paper entirely
+4. **Real-time Completion**: Complete jobs digitally which triggers both timecard completion AND invoice generation
+5. **Automatic Sync**: Real-time sync to MYOB for invoicing and comprehensive job costing
+6. **Unified Experience**: Single mobile workflow from clock-in through job completion
 
-## Current State Analysis
+## Technology & Compliance
 
-### Pain Points Identified
+### Technical Platform
 
-| Area                 | Current Process                                                                           | Time Impact                           | Risk Level                                |
-| -------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------- |
-| Template Discovery   | Manual searching through previous projects to find similar jobs                           | 30-60 minutes per search              | Medium - dependency on individual memory  |
-| Document Creation    | Manual copy/paste and field-by-field updates across 15+ page documents                    | Hours per project                     | High - compliance risk                    |
-| Document Timing      | Documents created reactively when jobs approach schedule (not at quote acceptance)        | Creates last-minute rush              | High - WorkSafe 5-day requirement at risk |
-| Field Population     | Manual data entry from multiple disconnected systems (ServiceM8, ConnectTeam, scheduling) | Constant re-entry and verification    | High - transcription errors               |
-| Emergency Planning   | Manual Google Maps screenshot and markup for every job site                               | 30-60 minutes per plan                | Medium - inconsistent quality             |
-| Worker Documentation | Worker numbers change daily; documents show planned not actual                            | Documents don't reflect field reality | Medium - safety compliance                |
+**System Architecture:**
+- React Native/Flutter cross-platform mobile application
+- Node.js/Python backend with RESTful APIs
+- PostgreSQL multi-tenant database architecture
+- Redis caching and RabbitMQ job processing
+- 72-hour offline data retention with intelligent sync
 
-### Fragmented Data Sources
+**Core Technical Features:**
+- Digital job cards with conditional logic smart forms
+- Photo capture with markup and annotation capabilities
+- Electronic signature capture for customer approval
+- Material tracking module with usage monitoring
+- Offline-first architecture with conflict resolution
 
-Current document creation pulls from multiple disconnected sources:
-- **ServiceM8**: Basic job details, client info, quote scope (limited detail)
-- **Scheduling System**: Job dates, worker numbers, priority queue
-- **OneDrive**: SWMS template library, previous job folders for copying
-- **Equipment Availability**: Manual estimates, no real-time inventory
-- **Training Systems**: ConnectTeam + separate induction spreadsheets
-- **Client Requirements**: Informal knowledge of review preferences
-- **Staff Memory**: Jess's knowledge of "similar jobs done last week"
-- **Verbal/Email**: Supervisor assignments, special requirements
+**API Integrations:**
 
-**Impact**: No single source of truth; high dependency on individual knowledge
+**ConnectTeam Integration:**
+- OAuth 2.0 authentication and single sign-on
+- Real-time timesheet sync via webhooks
+- Geo-location data streaming for dispatch
+- Training compliance verification and award rate pass-through
 
-## Proposed Solution Architecture
+**MYOB Integration:**
+- Full REST API implementation with two-way sync
+- Quote to invoice workflow automation
+- GL code mapping and split entity accounting
+- Real-time line item synchronisation
 
-### Core Philosophy: Workflow Digitalisation
-
-Rather than building document generation from scratch, our approach digitalises Savana's proven workflow: **identify and replicate similar job, copy template, adjust for current requirements**. This leverages their existing expertise while dramatically reducing manual effort.
-
-### Current Proven Process
-1. **Pattern Recognition**: Staff identifies similar previous jobs 
-2. **Template Selection**: Copy previous successful ARCP/SWMS documents
-3. **Manual Adjustment**: Update addresses, dates, operatives, site-specific requirements
-4. **Expert Review**: Staff validates hazards and approves compliance
-5. **Document Finalisation**: Upload to OneDrive, send to hygienist, print hard copies
-
-### Implementation Benefits
-
-**Immediate Value:**
-- Reduces document creation from hours to minutes
-- Maintains proven safety compliance processes
-- Eliminates manual copy/paste errors
-- Provides systematic job similarity recognition
-- **Enables Phase 2**: Digital documents ready for mobile field access
-
-**Long-term Advantages:**
-- Creates organisational knowledge base independent of individual memory
-- Enables systematic process improvement and pattern learning
-- **Digital Transformation Foundation**: Essential prerequisite for mobile operations (Phase 2), intelligent resource allocation (Phase 3), and integrated project delivery platform (Phase 4)
-- Positions business for major infrastructure project supply chain opportunities
-- Maintains flexibility for high-value job manual processing
-
-**Risk Mitigation:**
-- Builds on proven workflow rather than replacing it
-- Maintains expert review processes for safety compliance
-- Provides manual override capability for all automated functions
-- Uses existing approved templates as foundation
-
-#### **ServiceM8 Integration Strategy**
-
-**Phase 1 Implementation:**
-- **Quote Data Extraction**: Automatic population of job details, client information, work scope
-- **Document Triggers**: Automated alerts for jobs approaching documentation requirements
-- **Future Enhancement Readiness**: Architecture designed for expanded field data capture from future quoting system improvements
-
-**Integration Challenges Acknowledged:**
-- ServiceM8 API limitations require workaround strategies
-- Manual supervisor assignment until scheduling system integration (separate future project)
-- Equipment availability remains manual estimation until inventory system implementation
-
-#### **Intelligent Guidance System**
-
-**High-Match Scenarios (80%+ similarity):**
-- Template automatically pre-populated
-- User reviews 5-8 key difference fields
-
-**Medium-Match Scenarios (50-80% similarity):**
-- System suggests closest template with highlighted variations
-- Guided prompts for key differences
-
-**Low-Match/Complex Scenarios (<50% similarity or high-value jobs):**
-- Guided form completion with intelligent field suggestions
-- Manual expert review maintained for quality assurance
-- Full manual override capability preserved
-
-#### **Quality Assurance Framework**
-
-**Automated Validation:**
-- WorkSafe 5-day notification compliance checking
-- Training requirement verification via ConnectTeam integration
-- PPE requirement validation based on job parameters
-- Site-specific permit requirement flagging
-
-**Expert Review Workflow:**
-- Hazard assessment validation (cannot be fully automated for safety compliance)
-- Final compliance approval before document release
-- Hygienist: Mandatory review process maintained
-- Client Review: Flexible workflow based on client preferences
-
-#### **Compliance Integration**
+### Compliance Standards
 
 **ISO 45001:2018 Safety Management System:**
-- All templates aligned with SMS requirements
-- Systematic hazard identification preserved
-- Risk assessment methodology maintained
-- Continuous improvement metrics captured
+- Complete integration with Phase 1 safety documentation automation
+- Digital job completion triggers safety compliance verification
+- Comprehensive audit trail for all job lifecycle activities
+- Systematic safety performance monitoring and reporting
 
 **ISO 27001:2013 Information Security:**
-- Encrypted data handling for all integrations
-- Australian-hosted infrastructure
-- Role-based access controls
-- Complete audit trail maintenance
+- End-to-end encrypted data transmission and storage
+- Role-based access controls with multi-factor authentication
+- Australian-hosted cloud infrastructure for data sovereignty
+- Complete audit logging for all system activities
+
+**Split Entity Compliance:**
+- Separate data handling for Savana/Savana Environmental
+- Contractor vs employee classification management
+- Automated compliance reporting for dual entity structure
+- Clear audit trails for WorkSafe and regulatory requirements
 
 ### Implementation Benefits
 
 **Immediate Value:**
-- Reduces quote preparation time from 2-3 hours to 45 minutes
-- Eliminates manual cost estimation errors and improves accuracy to 95%
-- Provides real-time resource availability and qualification matching
-- Creates comprehensive job specifications at source
-- **Enables Phase 2**: Structured data feeds intelligent safety documentation
+
+- **Complete Digital Transformation**: Integrates all Phase 1-3 capabilities into unified ServiceM8 replacement
+- **Major Project Capability**: End-to-end digital platform ready for large infrastructure projects
+- **Unified Phase Integration**: Combines safety automation (Phase 1), mobile operations (Phase 2), and intelligent scheduling (Phase 3)
+- **Real-time Job Costing**: Instant visibility leveraging all previous phase data integration
+- **Automated Workflow**: From Phase 1 compliance through Phase 2 mobile completion to Phase 3 resource optimization
+- **ConnectTeam Foundation**: Built upon existing successful HR platform investment
 
 **Long-term Advantages:**
-- 15% quote win rate improvement through higher quality, more accurate quotes
-- Eliminates data quality issues that propagate through all subsequent phases
-- **Digital Transformation Foundation**: Quality data at source enables precision in mobile operations (Phase 2), intelligent scheduling (Phase 3), and integrated platform (Phase 4)
-- Positions business for major infrastructure project opportunities with comprehensive digital capability
-- Creates systematic capture of historical job patterns and lessons learned
+
+- **Major Project Supply Chain Ready**: Complete digital capability for large infrastructure project delivery
+- **Digital Transformation Complete**: All operational aspects integrated from Phase 1 foundation through Phase 4 delivery
+- **Competitive Market Position**: Technology leadership positioning for major project opportunities
+- **Comprehensive Data Integration**: Phase 1 compliance + Phase 2 mobile + Phase 3 scheduling intelligence
+- **Scalable Growth Platform**: Built on proven phase-by-phase implementation success
+- **Future Enhancement Platform**: Solid foundation for IoT integration and predictive analytics
 
 **Risk Mitigation:**
-- Builds on proven workflow rather than replacing it
-- Maintains expert review processes for safety compliance
-- Provides manual override capability for all automated functions
-- Uses existing approved templates as foundation
 
-### Document Types Required
+- **Familiar Entry Point**: Maintain ConnectTeam login process for user acceptance
+- **Feature Parity Plus**: Provide all ServiceM8 functionality plus significant improvements
+- **Phased Implementation**: Staged rollout with comprehensive testing and validation
+- **Comprehensive Training**: Multi-stage training programme with ongoing support
+- **Performance Assurance**: Sub-2 second response times with 99.9% uptime guarantee
 
-1. **ARCP (Asbestos Removal Control Plan)**
-   - Required for every licensed removal job
-   - Must differentiate between friable and bonded asbestos removal
-   - Currently uses same templates despite different safety protocols required
-   - Different SWMS selection needed based on material type
-   - 15-20 pages typical
-   - Must be submitted to WorkSafe 5 days before work 
-   - Emergency jobs handled with temporary exemptions
-   - Includes emergency evacuation plans (manually created from Google Maps)
-   - **Hygienist Survey Integration**:
-     - Not all jobs have pre-work surveys (especially private residential)
-     - When present, attached to ServiceM8 but no systematic workflow
-     - System must handle both surveyed and non-surveyed jobs
+## Implementation Plan (February 3 - May 5, 2026)
 
-2. **SWMS (Safe Work Method Statement)**
-   - Organised template library in OneDrive with job-type specific folders
-   - Existing categorisation system (e.g., "Vinyl Tiles and Adhesive" folder)
-   - Multi-factor template selection beyond simple job type matching
-   - Daily risk assessments
-   - Task-by-task hazard controls
-   - Daily sign-on requirements
-   - PPE assessments and equipment lists
-   - Training requirements verification
-   - Site-specific permit requirements
+### February 3 - March 10: Architecture & Core Development (5 weeks)
 
-3. **Pre-starts**
-   - Daily safety briefings
-   - 20-30 minutes per supervisor to complete
-   - Currently handwritten
+- System architecture design and API specification for all integrations
+- Mobile application framework development (React Native/Flutter)
+- Digital job card interface with smart forms and conditional logic
+- ConnectTeam OAuth integration and single sign-on implementation
+- MYOB two-way sync development with line item management
+- Offline-first data architecture with intelligent synchronisation
 
-4. **Additional Documents**
-   - Emergency evacuation plans (manual Google Maps markup)
-   - Supervisor checklists
-   - Notification forms for WorkSafe
-   - Hygienist review documentation
+### March 10 - May 5: Integration, Testing & Deployment (8 weeks)
 
-5. **Equipment Management Limitations**
-   - No real-time inventory tracking of equipment check-in/check-out
-   - Equipment list selection based on availability assumptions, not live data
-   - Risk of equipment unavailability affecting job planning
-   - **Note**: Equipment inventory system is separate future project
-
-## Implementation Plan (October 1 - November 26, 2025)
-
-### Objectives
-
-- Implement ISO 45001:2018 compliant Safety Management System for documentation
-- Automate ARCP and SWMS generation
-- Integrate with ServiceM8 job data
-- Integrate with ConnectTeam for training/qualification verification
-- Automate emergency plan generation from address data
-- Reduce document creation time by 80%
-- Ensure ISO 27001:2013 security compliance for all data handling
-
-### Implementation Priorities
-
-#### Immediate Wins (October 1-29, 2025)
-
-1. **Template Intelligence**: Train AI on existing jobs to recognise patterns
-   - Currently relies entirely on Jess's memory ("we did this exact job three days ago")
-   - No systematic capture of which SWMS templates match which job types
-   - Pattern recognition needed for flooring vs fence vs eaves work
-   - Build knowledge base to replace individual memory dependency
-
-2. **Smart Copy Function**: Enhanced template selection
-   - Automatically find most similar previous job
-   - Pre-populate based on job type
-   - Only require updates to address, date, operatives
-
-3. **Emergency Plan Generation**
-   - Current process: Google Maps screenshot → manual markup → document insertion
-   - Manual identification: evacuation points, muster points, site first aid locations
-   - Time-consuming: "Jess has to do every single time"
-   - Automation opportunity: Google Maps API + intelligent markup suggestions
-
-4. **Field Expertise Integration**
-   - Hazard identification currently requires manual field expertise
-   - Cliff's knowledge essential for site-specific risk assessment
-   - Future digital field capability project will improve quote-stage data capture
-   - System must work with current manual processes until field digitisation complete
-
-#### Critical Integrations (October 29 - November 26, 2025)
-
-1. **Automated Document Creation Monitoring**
-   - System monitors scheduling data for jobs approaching 2-week mark
-   - Automated daily report highlighting jobs requiring documentation
-   - Priority queue based on scheduled start dates
-   - Alert system for jobs missing ARCP/SWMS with < 5 days to start
-
-2. **ConnectTeam Training Integration**
-   - Core requirements: White card (99% jobs), asbestos removal training
-   - Equipment-specific: EWP, forklift, working at heights (job-blocking if missing)
-   - Site-specific: Client induction requirements (tracked separately - hundreds)
-   - Critical validation: "Can't do job tomorrow without required ticket"
-   - Multi-system challenge: ConnectTeam + separate induction spreadsheet
-
-3. **Hygienist Workflow**
-   - Mandatory: Hygienist review and sign-off for all jobs
-   - Variable: Client review requirements (some thorough, some auto-approve, some ignore)
-   - Flexible workflow routing based on client review preferences
-   - Revision tracking with draft number incrementation
-   - Copy provision for hygienist clearance process requirements
-
-4. **Permit Logic Engine**
-   - Site-specific permit requirements:
-     - Royal Perth Hospital: Hot works permits for grinding
-     - UWA: Working at heights permits
-     - Defence bases: Asbestos removal permits required
-     - Residential: Generally no permits required
-   - Automated permit requirement flagging based on client and work type
-   - Integration with site condition assessment
-
-### Detailed Deliverables
-
-#### October 1-15: Discovery & Setup
-
-- [ ] Map current processes to ISO 45001:2018 SMS requirements
-- [ ] Document ISO 27001 security controls for data handling
-- [ ] Identify SMS gaps and compliance improvements
-- [ ] Document all current templates (ARCP, SWMS, MRP, Lead plans)
-- [ ] Map ServiceM8 data fields to document requirements
-- [ ] Map ConnectTeam qualification/training data structure
-- [ ] Document hygienist review workflow
-- [ ] Identify compliance requirements with Chris Milos
-- [ ] Map site-specific permit requirements (hot works, asbestos permits, etc.)
-- [ ] Audit current SWMS equipment lists 
-- [ ] **Note**: Equipment inventory tracking is separate future project
-- [ ] Build equipment-to-template mapping for current available items
-- [ ] Define standardised document naming conventions (currently: "SWMS Friable [Address]")
-- [ ] Establish job number tracking system integration
-- [ ] Create automated file structure generation for OneDrive
-- [ ] Set up AI training environment
-- [ ] Establish Safety Management System baseline metrics
-
-#### October 15-29: AI Model Development
-
-- [ ] Train AI on existing templates and completed documents
-- [ ] Create definitive matrix mapping 10+ job types to required SWMS templates
-- [ ] Build automated SWMS selection based on job type identification
-- [ ] Validate template selection logic with Jess for all job type combinations
-- [ ] Build hazard identification support (not replacement) for field expertise
-- [ ] Map complex template selection: job type + equipment + site conditions + access requirements
-- [ ] Implement risk-based PPE assessment rather than simple site-type rules
-- [ ] Create equipment-to-hazard relationship database
-- [ ] Create job type recognition (flooring, fence, eaves, residential vs commercial)
-- [ ] Build template selection logic aligned with SMS requirements
-- [ ] Develop hazard pre-population based on job type
-- [ ] Create automated emergency plan generation using mapping APIs
-- [ ] Build PPE requirement logic based on job specifications
-- [ ] Develop permit requirement detection (commercial sites, hospitals, defence bases)
-- [ ] Implement ISO 45001 risk assessment methodology
-- [ ] Build compliance validation rules for WorkSafe requirements
-
-#### October 29 - November 12: Integration Development
-
-- [ ] ServiceM8 API connection for job data extraction
-- [ ] ConnectTeam API integration for training/qualification verification
-- [ ] OneDrive API for automated document upload
-- [ ] Build user interface for document generation
-- [ ] Create hygienist review workflow with revision tracking
-- [ ] Develop automated WorkSafe notification system (5-day requirement)
-- [ ] Build emergency plan generator with evacuation points
-- [ ] Build training requirement validation against job assignments
-- [ ] Integration between ConnectTeam API and separate induction tracking
-- [ ] Pre-scheduling validation to prevent "guys sent to job without inductions"
-- [ ] Implement ISO 27001 security controls for all data transfers
-- [ ] Create Safety Management System reporting dashboard
-- [ ] Build compliance audit trail functionality
-
-#### November 12-26: Testing & Refinement
-
-- [ ] Test with 10 different job types (residential, commercial, defence, hospital)
-- [ ] Validate compliance with WorkSafe requirements
-- [ ] Test hygienist review and revision process
-- [ ] Validate training requirement matching
-- [ ] User acceptance testing with Jess
-- [ ] Document training and SOPs
-- [ ] Verify ISO 45001 SMS compliance across all workflows
-- [ ] Test ISO 27001 security controls and access permissions
-- [ ] Conduct Safety Management System audit simulation
-- [ ] Validate continuous improvement tracking mechanisms
+- Complete ConnectTeam API integration (timesheets, geo-data, compliance)
+- Safety document linking from Phase 1 automation system
+- Electronic signature capability and customer approval workflows
+- End-to-end testing with load testing for 50+ concurrent users
+- Field pilot programme with 10 workers across different job types
+- Phased rollout with comprehensive training and go-live support
 
 ## Resource Requirements
 
-### Internal Team
+### Development Team (13 weeks)
 
-- **Chris Milos**: 4 hours/week for compliance validation
-- **Jess**: 8 hours/week for testing and feedback
-- **Leon**: 2 hours/week for operations oversight
-- **Field Supervisor**: 2 hours/week for field testing
+- **Solution Architect**: 120 hours for system architecture and integration design
+- **Backend Developers**: 2 x 480 hours for API development and database architecture
+- **Mobile Developer**: 480 hours for React Native/Flutter application development
+- **Integration Specialist**: 240 hours for ConnectTeam and MYOB API integration
+- **UX/UI Designer**: 120 hours for mobile-optimised interface design
+- **QA Engineer**: 200 hours for comprehensive testing and validation
+- **DevOps Engineer**: 80 hours for deployment and infrastructure setup
+- **Total External**: 2,200 hours
 
-### External Resources
+### Internal Resources
 
-- **AI/Automation Developer**: Full-time for 8 weeks
-- **Integration Specialist**: Part-time for API connections
-- **UX Designer**: 20 hours for interface design
-- **Change Management**: 10 hours for training materials
+- **Leon (Operations Manager)**: 4 hours/week for system requirements and testing (32-40 hours)
+- **Jess (Project Manager)**: 6 hours/week for workflow validation and user acceptance testing (48-60 hours)
+- **Chris Milos (Safety HSEQ)**: 2 hours/week for compliance validation and safety integration (16-20 hours)
+- **Field Supervisors**: 40 hours total for pilot testing and feedback
+- **Total Internal**: 136-160 hours
 
-### Technology Stack
-
-- **AI Platform**: OpenAI/Claude API for document generation
-- **Safety Management System**: ISO 45001:2018 compliant framework
-- **Security Standards**: ISO 27001:2013 compliant infrastructure
-- **Integration**:
-  - ServiceM8 API (job data) - **LIMITED FUNCTIONALITY**: No Android app, no job completion trigger, one-way sync to MYOB only
-  - ConnectTeam API (qualifications/training) - Geo-tagging functional, award rates sync to MYOB
-  - **MYOB API** - Master data source for line items and payroll
-  - OneDrive API (document storage)
-  - Google Maps (emergency plan generation)
-- **Hosting**: Australian-based servers (ISO 27001 compliance)
-- **Document Processing**: Template engine with dynamic field population
-- **Workflow Management**: Revision tracking and approval system
-- **Audit Trail**: Complete compliance logging for SMS requirements
-
-**Note**: Split entity structure (Savana Environmental / Savana) must be maintained for contractor/visa management
+**Note**: Phase 4 integrates all previous phases into a comprehensive platform, combining Phase 1's safety automation, Phase 2's mobile architecture, and Phase 3's scheduling intelligence into a complete ServiceM8 replacement for major project delivery.
 
 ## Risk Management
 
 | Risk | Likelihood | Impact | Mitigation |
 |------|------------|--------|------------|
-| ServiceM8 API limitations | Medium | High | Early API testing, fallback to manual entry |
-| User adoption resistance | Low | Medium | Maintain familiar interfaces, extensive training |
-| Compliance rejection | Low | Critical | Chris Milos approval at each stage |
-| Data security concerns | Medium | High | Australian hosting, encryption, audit trails |
-| Integration complexity | High | Medium | Phased approach, maintain manual fallback |
+| ConnectTeam API changes | Low | High | API versioning, regular communication with vendor |
+| MYOB integration complexity | High | High | Incremental development, extensive testing |
+| Mobile adoption resistance | Low | Medium | Intuitive design, comprehensive training |
+| Network connectivity issues | Medium | Low | Robust offline capability, smart sync |
+| Data migration errors | Medium | High | Phased migration, parallel run period |
+| Split entity complexity | Medium | Critical | Clear data separation, audit trails |
 
 ## Budget Estimate
 
-### Development Costs
+### Total Phase Investment: $65,000 - $75,000
 
-- **Phase 1 Total**: $25,000 - $35,000
-  - Discovery & Setup: $3,000 - $4,000
-  - AI Model Development: $8,000 - $10,000
-  - Integration Development: $10,000 - $15,000
-  - Testing & Refinement: $4,000 - $6,000
+**Development Costs: $60,000 - $70,000**
+- Architecture & Design: $15,000 - $18,000
+- Core Development: $30,000 - $35,000
+- Integration Development: $15,000 - $17,000
 
-### Ongoing Costs (Annual - Phase 1 portion)
+**Technology Costs: $5,000**
+- Mobile app development tools: $2,000
+- API testing and integration tools: $1,500
+- Cloud infrastructure setup: $1,500
 
-- AI API usage: $2,000 - $3,000
-- Hosting/Infrastructure: $1,200
-- Maintenance/Updates: $5,000
-- **Total Annual**: $8,200 - $9,200
+### Ongoing Costs (Annual)
 
-### ROI Calculation
+- Platform hosting & infrastructure: $3,600
+- Mobile app stores (Apple/Google): $300
+- API usage (maps, integrations): $1,200
+- Maintenance & updates: $8,000
+- **Total Annual**: $13,100
 
-- Time saved: 15 hours/week @ $40/hour = $31,200/year
-- Error reduction/compliance: $5,000/year estimated
-- **Payback Period**: 10-12 months
+### Expected ROI
 
-## Success Metrics
+**Time Savings**
+- Job completion processing: 15 hours/week saved (from paper-based to digital)
+- Invoice processing acceleration: 10 hours/week saved (automated generation)
+- ServiceM8 administration: 5 hours/week saved (system eliminated)
+- **Total**: 30+ hours/week operational time saved
 
-### Phase 1 Completion (8 weeks)
+**Annual Savings**
+- Time saved: 30 hours/week @ $40/hour = $62,400/year
+- ServiceM8 licences eliminated: $6,000/year
+- Reduced errors and rework: $8,000/year
+- **Total Annual Savings**: $76,400
 
-- Compliance accuracy: 100%
-- Template consistency: 100%
-- User satisfaction: > 8/10
-- ISO 45001 SMS compliance: 100% for documentation processes
-- ISO 27001 security controls: Fully implemented
-- Safety Management System metrics: Established and baselined
-
-### 3-Month Post-Implementation
-
-- Safety documentation automated for 90% of jobs
-- Document creation time reduced by 75%
-- Zero compliance violations
-- Full integration with ServiceM8 and ConnectTeam
-- ISO 45001 Safety Management System fully operational
-- Continuous improvement metrics established and tracking
-- WorkSafe audit readiness achieved
-
-## Next Steps
-
-### Immediate (This Week)
-
-- Confirm Phase 1 approval and budget
-- Schedule detailed discovery session with Jess
-- Access ServiceM8 API documentation
-- Collect 50 sample completed documents
-
-### Week 2
-
-- Begin AI model training
-- Design user interface mockups
-- Map integration points
-- Establish project governance
-
-### Week 3
-
-- Start development
-- Weekly progress reviews with Chris Milos
-- Begin change management planning
-
-## Resource Requirements
-
-### Internal Team
-- **Chris Milos**: 4 hours/week for compliance validation
-- **Jess**: 8 hours/week for testing and feedback
-- **Leon**: 2 hours/week for operations oversight
-- **Field Supervisor**: 2 hours/week for field testing
-
-### External Resources
-- **AI/Automation Developer**: Full-time for 8 weeks
-- **Integration Specialist**: Part-time for API connections
-- **UX Designer**: 20 hours for interface design
-- **Change Management**: 10 hours for training materials
-
-### Technology Stack
-- **AI Platform**: OpenAI/Claude API for document generation
-- **Safety Management System**: ISO 45001:2018 compliant framework
-- **Security Standards**: ISO 27001:2013 compliant infrastructure
-- **Integration**: ServiceM8, ConnectTeam, MYOB, OneDrive APIs
-- **Hosting**: Australian-based servers (ISO 27001 compliance)
-
-## Risk Management
-
-| Risk | Likelihood | Impact | Mitigation |
-|------|------------|--------|------------|
-| ServiceM8 API limitations | Medium | High | Early API testing, fallback to manual entry |
-| User adoption resistance | Low | Medium | Maintain familiar interfaces, extensive training |
-| Compliance rejection | Low | Critical | Chris Milos approval at each stage |
-| Data security concerns | Medium | High | Australian hosting, encryption, audit trails |
-| Integration complexity | High | Medium | Phased approach, maintain manual fallback |
-
-## Budget Estimate
-
-### Development Costs
-- **Phase 1 Total**: $25,000 - $35,000
-- Discovery & Setup: $3,000 - $4,000
-- AI Model Development: $8,000 - $10,000
-- Integration Development: $10,000 - $15,000
-- Testing & Refinement: $4,000 - $6,000
-
-### Ongoing Costs (Annual - Phase 1 portion)
-- AI API usage: $2,000 - $3,000
-- Hosting/Infrastructure: $1,200
-- Maintenance/Updates: $5,000
-- **Total Annual**: $8,200 - $9,200
-
-### ROI Calculation
-- Time saved: 15 hours/week @ $40/hour = $31,200/year
-- Error reduction/compliance: $5,000/year estimated
-- **Payback Period**: 10-12 months
+**Payback Period**
+- Initial investment recovery: 10-12 months
+- Ongoing efficiency gains: Immediate upon deployment
 
 ## Success Metrics
 
-### Phase 1 Completion (8 weeks)
-- Compliance accuracy: 100%
-- Template consistency: 100%
-- User satisfaction: > 8/10
-- ISO 45001 SMS compliance: 100% for documentation processes
-- ISO 27001 security controls: Fully implemented
-- Safety Management System metrics: Established and baselined
+### Primary KPIs
 
-### 3-Month Post-Implementation
-- Safety documentation automated for 90% of jobs
-- Document creation time reduced by 75%
-- Zero compliance violations
-- Full integration with ServiceM8 and ConnectTeam
-- ISO 45001 Safety Management System fully operational
-- Continuous improvement metrics established and tracking
-- WorkSafe audit readiness achieved
+- **Digital Job Completion**: 100% (from 0% currently)
+- **Quote to Invoice Time**: < 24 hours (from 5-7 days)
+- **Mobile App Adoption**: 100% within 2 weeks of deployment
+- **System Availability**: 99.9% uptime with < 2 second response times
 
-## Next Steps
+### Secondary Metrics
 
-### Immediate (This Week)
-- Confirm Phase 1 approval and budget
-- Schedule detailed discovery session with Jess
-- Access ServiceM8 API documentation
-- Collect 50 sample completed documents
+- **Job Profitability Visibility**: Real-time (from monthly reporting)
+- **Customer Satisfaction**: > 9/10 rating for digital experience
+- **ServiceM8 Dependency**: 0% (complete replacement achieved)
+- **Cross-platform Data Accuracy**: > 99% synchronisation accuracy
 
-### Week 2
-- Begin AI model training
-- Design user interface mockups
-- Map integration points
-- Establish project governance
+## Stakeholder Contacts
 
-## Key Contacts
-
-- **Chris Milos** (Safety HSEQ): Compliance validation and requirements
-- **Jess** (Project Manager): Primary user and testing
-- **Leon** (Operations Manager): Operations oversight
-- **Andrew @ Nalit**: IT infrastructure and permissions
-- **ServiceM8 Owner**: Leon (for API access)
+- **Operations Manager**: Leon (Operations Manager) - workflow validation and requirements
+- **Primary User**: Jess (Project Manager) - system testing and user acceptance
+- **Safety HSEQ**: Chris Milos (Safety HSEQ Manager) - compliance validation and safety integration
+- **Field Validation**: Field Supervisors - pilot testing and rollout feedback
+- **IT Support**: Andrew @ Nalit
 
 ---
 
-**Project Status**: Foundational phase ready to commence October 1, 2025  
-**Next Review**: October 15, 2025 completion milestone  
-**Phase Progression**: Digital documentation system enables Phase 2 mobile field operations, Phase 3 intelligent scheduling, and Phase 4 integrated project delivery platform. Essential foundation for major infrastructure project capability.
+**Project Status**: Final integration phase ready to commence February 3, 2026, building comprehensive platform  
+**Next Review**: May 5, 2026 completion milestone  
+**Phase Integration**: Integrates Phase 1 safety automation, Phase 2 mobile capability, and Phase 3 scheduling intelligence into unified ServiceM8 replacement  
+**Digital Transformation Completion**: Delivers complete major project delivery capability built on all previous phase foundations  
+**Final Integration Period**: May 5-31, 2026 - System-wide testing and optimization across all integrated phases
