@@ -7,10 +7,10 @@
 
 ## Executive Summary
 
-**Project Goal**: Transform ServiceM8's basic quote module into an intelligent data capture platform by developing an Android-native application that feeds comprehensive, structured information into ServiceM8 from the first customer touchpoint, enabling automation across safety, scheduling, and resource management while preserving valuable MYOB integration and historical data.
+**Project Goal**: Transform ServiceM8's basic quote module into an intelligent data capture platform by developing either an Android-native application OR a unified web interface that feeds comprehensive, structured information into ServiceM8 from the first customer touchpoint, enabling automation across safety, scheduling, and resource management while preserving valuable MYOB integration and historical data.
 
 **Expected Impact**:
-- **Immediate Android Enablement**: 100% of field workforce can capture digital quotes (vs 0% currently)
+- **Complete Field Enablement**: 100% of field workforce can capture comprehensive quotes (vs ServiceM8's inadequate lite app)
 - **Quality Data at Source**: Every quote captures 8+ critical data points enabling downstream automation
 - **Manual Processing Elimination**: 6-8 hours saved per quote through structured data capture
 - **Safety Compliance Automation**: SWMS pre-populated from quote-stage hazard identification
@@ -40,7 +40,7 @@
 
 | Area | Current Process | Time Impact | Risk Level |
 |------|----------------|-------------|------------|
-| **Android App Gap** | No Android app for majority Android workforce | Cannot capture field quotes | Critical - lost opportunities |
+| **Inadequate Mobile App** | Recently released lite Android app (2.7-star rating) insufficient for Savana's needs | Cannot capture comprehensive quote data | Critical - lost opportunities |
 | **Field Quote Capture** | Basic web interface, no structured data capture | Incomplete job information | High - missing requirements |
 | **Safety Requirements** | Cannot capture safety needs during quoting | Post-quote rework required | Critical - compliance risk |
 | **Scheduling Data** | No resource requirements captured at source | Manual follow-up needed | High - delays job start |
@@ -51,7 +51,7 @@
 
 ### Critical Workflow Gap: Quote-Stage Data Capture
 
-**The Core Problem**: ServiceM8's limited Android functionality prevents field teams from capturing comprehensive job requirements during the critical quote stage. This creates a cascade of downstream inefficiencies:
+**The Core Problem**: ServiceM8's recently released Android app is a basic "lite" version (2.7-star rating) that cannot capture the comprehensive job requirements Savana needs during the critical quote stage. Waiting for ServiceM8 to enhance their mobile app would delay Savana's digital transformation well beyond their competitive timeline requirements. This creates a cascade of downstream inefficiencies:
 
 **Missing Quote-Stage Data Points:**
 
@@ -96,7 +96,7 @@
 
 **The Foundation Problem**: ServiceM8's quote module is the first entry point for ALL job data, yet it cannot capture the structured information Savana needs. This inadequate foundation corrupts every subsequent process, making automation impossible and forcing expensive manual workarounds.
 
-**Why Automation is Imperative**: Savana needs an automated input method that captures comprehensive, structured data at the quote stage and feeds quality information INTO ServiceM8. This isn't about replacing ServiceM8 - it's about fixing the critical data quality problem at the earliest touchpoint, enabling all downstream processes to function efficiently.
+**Why Automation is Imperative**: Savana cannot wait for ServiceM8 to eventually enhance their 2.7-star lite mobile app to meet comprehensive business requirements. Savana needs an automated input method NOW that captures comprehensive, structured data at the quote stage and feeds quality information INTO ServiceM8. This isn't about replacing ServiceM8 - it's about providing the mobile functionality ServiceM8 cannot deliver within Savana's competitive timeline, while fixing the critical data quality problem at the earliest touchpoint.
 
 **Business Impact**: Every quote missing this critical data creates 6-8 hours of manual processing, delays job commencement by 2-3 days, increases safety risks, and prevents Savana from bidding on major infrastructure projects that require comprehensive upfront documentation and resource planning. Without fixing this quote-stage data capture, Savana cannot scale beyond their current manual limitations.
 
@@ -104,13 +104,28 @@
 
 ### Core Philosophy
 
-**Enhance, Don't Replace**: This solution enhances ServiceM8's proven strengths by creating a sophisticated data capture layer that feeds quality information INTO ServiceM8 from the first touchpoint. We're not replacing ServiceM8 - we're solving its critical Android and data capture limitations while preserving the valuable MYOB integration and multi-year data repository.
+**Enhance, Don't Replace**: This solution enhances ServiceM8's proven strengths by creating a sophisticated data capture layer that feeds quality information INTO ServiceM8 from the first touchpoint. We're not replacing ServiceM8 - we're providing the comprehensive mobile functionality that ServiceM8's lite Android app cannot deliver, while preserving the valuable MYOB integration and multi-year data repository.
 
 **Quality Data at Source**: By capturing comprehensive, structured data at the quote stage through a custom mobile solution, we transform ServiceM8 from a basic quote system into an intelligent business platform that enables automation across safety, scheduling, and resource management.
 
-### Key Capabilities
+### Implementation Options
 
-**1. Android-Native Quote Capture Application**
+Savana can choose between two implementation approaches based on their workflow preferences:
+
+**Option A: Android App + ServiceM8 Desktop**
+- Native Android application for field quote capture
+- Office continues using existing ServiceM8 desktop interface
+- Data flows: Field App → ServiceM8 → MYOB (existing workflow preserved)
+
+**Option B: Unified Web Interface**
+- Cross-platform web application (works on mobile browsers + desktop)
+- Field teams access via mobile browser with offline capability
+- Office choice: continue ServiceM8 OR use enhanced web interface
+- Data flows: Web Interface → ServiceM8 → MYOB (enhanced workflow option)
+
+### Key Capabilities (Both Options)
+
+**1. Mobile Field Quote Capture**
 - Full offline capability for field quoting (48-hour data retention)
 - Structured data forms capturing all 8+ critical data points
 - Smart conditional logic based on property type and job requirements
@@ -176,12 +191,21 @@
 
 ### Technical Platform
 
-**System Architecture:**
-- Android-native mobile application (React Native/Flutter)
+**System Architecture Options:**
+
+**Option A: Native Android Application**
+- React Native/Flutter Android application
+- Purpose-built for comprehensive quote capture (vs ServiceM8's 2.7-star lite app)
 - RESTful API middleware layer for ServiceM8 integration
-- Cloud-based data synchronisation service (AWS/Azure)
 - Offline-first architecture with 48-hour local storage
 - Encrypted data cache for field operations
+
+**Option B: Progressive Web Application (PWA)**
+- Cross-platform web application (mobile browser + desktop compatible)
+- Works on any device with modern browser (iOS, Android, desktop)
+- Same offline capability and data capture as native app
+- Single codebase serves both field and office users
+- Optional enhanced office interface beyond ServiceM8
 
 **Core Technical Features:**
 - Structured data capture forms with conditional logic
@@ -247,7 +271,7 @@
 
 **Immediate Value:**
 
-- **Android Workforce Enabled**: 100% of field team can capture quotes (vs 0% currently)
+- **Complete Workforce Enabled**: 100% comprehensive quote capture (vs ServiceM8's 2.7-star lite app)
 - **Quality Data from Day One**: Every quote contains all 8+ critical data points
 - **ServiceM8 Investment Protected**: Enhances rather than replaces $6,000/year system
 - **MYOB Integration Preserved**: Proven quote→invoice→payment workflow continues
@@ -266,7 +290,7 @@
 **Long-term Strategic Value:**
 
 - **Major Project Readiness**: Structured data capture meets infrastructure project requirements
-- **Competitive Advantage**: Quote faster and more accurately than paper-based competitors
+- **Competitive Advantage**: Quote faster and more comprehensively than competitors using ServiceM8's basic lite app
 - **Knowledge Building**: Historical quote data improves future pricing and requirements
 - **Integration Platform**: Quality data enables future automation across all systems
 - **Scalable Growth**: System handles 10x quote volume without additional admin burden
@@ -277,7 +301,7 @@
 - **Minimal Change Management**: ServiceM8 workflow remains unchanged for office staff
 - **Offline Reliability**: 48-hour offline capability ensures field productivity
 - **Gradual Adoption**: Pilot with select estimators before full rollout
-- **ServiceM8 Fallback**: Can revert to basic ServiceM8 quotes if needed
+- **ServiceM8 Fallback**: Can revert to ServiceM8 desktop or lite mobile app if needed
 - **Proven Technology**: React Native/Flutter are mature, stable platforms
 
 ## Implementation Plan (February 3 - May 5, 2026)
