@@ -22,12 +22,15 @@
 
 ### Current Excel-Based Limitations
 
-**The Scheduling Crisis**: Excel-based scheduling requires constant manual updates throughout the day, disconnected from all other business systems, creating a bottleneck that prevents Savana from scaling operations or bidding on major projects. **Critical Risk**: All scheduling knowledge and decision-making expertise resides with a single employee, creating catastrophic business vulnerability if they become unavailable.
+**The Scheduling Crisis**: Savana operates two separate Excel spreadsheets for scheduling - a job overview checklist and a flat employee allocation sheet - both requiring constant manual updates throughout the day, disconnected from all other business systems, creating a bottleneck that prevents Savana from scaling operations or bidding on major projects. **Critical Risk**: All scheduling knowledge and decision-making expertise resides with a single employee, creating catastrophic business vulnerability if they become unavailable.
 
 | Area | Current Process | Time Impact | Risk Level |
 |------|----------------|-------------|------------|
-| **Continuous Manual Updates** | Excel updated "by the minute" as jobs change, delays occur, workers call in | 4-6 hours/day of constant spreadsheet maintenance | Critical - scheduling manager trapped |
-| **Complete System Isolation** | Excel has zero integration with ServiceM8, ConnectTeam, or MYOB | 2-3 hours/day re-entering same data across systems | Critical - data inconsistency |
+| **Dual Spreadsheet Complexity** | Two separate Excel files: (1) Job overview checklist manually populated from ServiceM8 quotes, (2) Flat employee allocation sheet with manual name entry | Constant switching between files, data duplication | Critical - process fragmentation |
+| **Manual ServiceM8 Re-entry** | Quoted jobs manually copied from ServiceM8 into job overview spreadsheet for processing checklist | 30-60 minutes per job transcription | High - transcription errors |
+| **Flat Employee Data** | Employee allocation spreadsheet shows only names and basic availability, no job history or skills tracking | Cannot see recent job patterns or experience match | Critical - blind assignment decisions |
+| **Overbooking Risk** | No automatic resource counting or availability verification across both spreadsheets | Documented cases of too many employees scheduled vs available | **CRITICAL** - operational failures |
+| **Complete System Isolation** | Both Excel sheets have zero integration with ServiceM8, ConnectTeam, or MYOB | 2-3 hours/day re-entering same data across systems | Critical - data inconsistency |
 | **Qualification Blind Spots** | Cannot verify worker qualifications during scheduling assignment | 1-2 hours/day manual ConnectTeam checking | Critical - compliance violations |
 | **Resource Guesswork** | Assignment based on availability only, not skills, location, or equipment | Variable delays, wrong crew arrivals | High - customer dissatisfaction |
 | **No Historical Intelligence** | Cannot learn from past scheduling successes/failures | Repeated scheduling mistakes | Medium - efficiency loss |
@@ -37,11 +40,17 @@
 ### Current Integration Reality
 
 **Pre-Phase 1 State (Current Problem)**:
-- **ServiceM8**: Contains quotes but lacks comprehensive job requirements data for intelligent scheduling
-- **ConnectTeam**: Successfully handles geo-tagging and award rates but disconnected from scheduling decisions
+- **ServiceM8**: Contains quotes but data must be manually transcribed into Excel job overview spreadsheet
+- **ConnectTeam**: Successfully handles geo-tagging and award rates but disconnected from both Excel scheduling sheets
 - **MYOB**: Serves as master for line items and payroll but no scheduling integration
 - **Job Completion**: Still paper-based, no real-time job status for scheduling updates
-- **Excel Scheduling**: Completely isolated island - no data flows in or out
+- **Excel Scheduling**: Two completely isolated spreadsheets - job overview checklist and employee allocation sheet - no data flows between them or other systems
+
+**The Dual Spreadsheet Problem**:
+1. **Job Overview Spreadsheet**: Manual checklist creation from ServiceM8 quotes for safety documentation and folder preparation
+2. **Employee Allocation Spreadsheet**: Flat file showing only names and basic availability, no employee history, skills, or automatic resource verification
+
+**Real-World Failures**: Documented overbooking incidents where more employees were scheduled than available due to manual counting errors between the two disconnected spreadsheets.
 
 **Post-Phase 1 Opportunity**:
 With Phase 1's comprehensive quote data flowing into ServiceM8, scheduling can be transformed from blind Excel guesswork to intelligent resource allocation based on:
@@ -53,7 +62,7 @@ With Phase 1's comprehensive quote data flowing into ServiceM8, scheduling can b
 
 **The Integration Gap**: Even with enhanced ServiceM8 data from Phase 1, Excel scheduling remains completely disconnected, preventing Savana from leveraging quality data for intelligent resource allocation. **Critical Vulnerability**: All scheduling intelligence remains locked in one person's head with no systematic knowledge capture, creating unacceptable business continuity risk.
 
-## Proposed Solution: Intelligent Scheduling System
+## Proposed Solution: Intelligent Scheduling System with API integration
 
 ### Core Philosophy
 
