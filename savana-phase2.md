@@ -22,27 +22,42 @@
 
 ### Current Excel-Based Limitations
 
+**The Scheduling Crisis**: Excel-based scheduling requires constant manual updates throughout the day, disconnected from all other business systems, creating a bottleneck that prevents Savana from scaling operations or bidding on major projects. **Critical Risk**: All scheduling knowledge and decision-making expertise resides with a single employee, creating catastrophic business vulnerability if they become unavailable.
 
 | Area | Current Process | Time Impact | Risk Level |
 |------|----------------|-------------|------------|
-| Manual Scheduling | Excel "by the minute" updates | Continuous throughout day | High - resource misallocation |
-| System Integration | No connection between Excel, ServiceM8, ConnectTeam | 2-3 hours/day duplicating data | High - data inconsistency |
-| Qualification Tracking | Manual verification across systems | 1-2 hours/day checking | Critical - compliance risk |
-| Resource Allocation | Manual assignment without optimisation | Variable delays | Medium - efficiency loss |
+| **Continuous Manual Updates** | Excel updated "by the minute" as jobs change, delays occur, workers call in | 4-6 hours/day of constant spreadsheet maintenance | Critical - scheduling manager trapped |
+| **Complete System Isolation** | Excel has zero integration with ServiceM8, ConnectTeam, or MYOB | 2-3 hours/day re-entering same data across systems | Critical - data inconsistency |
+| **Qualification Blind Spots** | Cannot verify worker qualifications during scheduling assignment | 1-2 hours/day manual ConnectTeam checking | Critical - compliance violations |
+| **Resource Guesswork** | Assignment based on availability only, not skills, location, or equipment | Variable delays, wrong crew arrivals | High - customer dissatisfaction |
+| **No Historical Intelligence** | Cannot learn from past scheduling successes/failures | Repeated scheduling mistakes | Medium - efficiency loss |
+| **Emergency Scrambling** | Last-minute changes require complete manual rework | 1-3 hours per emergency reallocation | High - operational chaos |
+| **Single Point of Failure** | All scheduling knowledge held by one person, no backup or documentation | Complete operational shutdown if unavailable | **CRITICAL** - business continuity risk |
 
 ### Current Integration Reality
 
-- **ServiceM8**: Limited to quoting only (no completion tracking)
-- **ConnectTeam**: Successfully handles geo-tagging and award rates
-- **MYOB**: Serves as master for line items and payroll
-- **Job Completion**: Still paper-based despite digital systems
-- **Excel Scheduling**: Completely disconnected from other systems
+**Pre-Phase 1 State (Current Problem)**:
+- **ServiceM8**: Contains quotes but lacks comprehensive job requirements data for intelligent scheduling
+- **ConnectTeam**: Successfully handles geo-tagging and award rates but disconnected from scheduling decisions
+- **MYOB**: Serves as master for line items and payroll but no scheduling integration
+- **Job Completion**: Still paper-based, no real-time job status for scheduling updates
+- **Excel Scheduling**: Completely isolated island - no data flows in or out
+
+**Post-Phase 1 Opportunity**:
+With Phase 1's comprehensive quote data flowing into ServiceM8, scheduling can be transformed from blind Excel guesswork to intelligent resource allocation based on:
+- Property types and access requirements
+- Safety requirements and PPE needs  
+- Technician qualifications required
+- Equipment and asset requirements
+- Historical job patterns and success rates
+
+**The Integration Gap**: Even with enhanced ServiceM8 data from Phase 1, Excel scheduling remains completely disconnected, preventing Savana from leveraging quality data for intelligent resource allocation. **Critical Vulnerability**: All scheduling intelligence remains locked in one person's head with no systematic knowledge capture, creating unacceptable business continuity risk.
 
 ## Proposed Solution: Intelligent Scheduling System
 
 ### Core Philosophy
 
-Phase 3 transforms scheduling operations from manual Excel-based processes to an automated, intelligent platform that integrates Phase 1's compliance automation and Phase 2's mobile field data while providing real-time scheduling optimisation and resource allocation for major project delivery capability.
+Phase 2 transforms scheduling operations from manual Excel-based processes to an automated, intelligent platform that leverages Phase 1's comprehensive ServiceM8 data integration, providing real-time scheduling optimisation and resource allocation for major project delivery capability.
 
 ### Key Capabilities
 
