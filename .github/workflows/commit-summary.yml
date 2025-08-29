@@ -1,0 +1,52 @@
+name: Document Changes Summary
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '**.md'
+      - '!README.md'
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    name: Summarize Document Changes
+    
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 2
+    
+    - name: Get Commit Details
+      id: commit
+      run: |
+        echo "## Commit Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**Author:** ${{ github.actor }}" >> $GITHUB_STEP_SUMMARY
+        echo "**Commit:** ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### Commit Message" >> $GITHUB_STEP_SUMMARY
+        echo '```' >> $GITHUB_STEP_SUMMARY
+        git log -1 --pretty=format:"%B" >> $GITHUB_STEP_SUMMARY
+        echo '```' >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+    - name: Show Changed Files
+      run: |
+        echo "### Changed Files" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        git diff --name-status HEAD~1 HEAD >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+    - name: Calculate Statistics
+      run: |
+        echo "### Statistics" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        for file in $(git diff --name-only HEAD~1 HEAD | grep "\.md$"); do
+          if [ -f "$file" ]; then
+            echo "**$file**" >> $GITHUB_STEP_SUMMARY
+            echo "- Lines: $(wc -l < $file)" >> $GITHUB_STEP_SUMMARY
+            echo "- Words: $(wc -w < $file)" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+          fi
+        done
