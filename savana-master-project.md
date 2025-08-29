@@ -12,7 +12,7 @@
 
 Savana Environmental seeks $100,000 in grant funding to implement a comprehensive digital transformation project that will position our business to compete effectively in major infrastructure project supply chains. As a specialised asbestos removal contractor serving property managers, insurance companies, principal builders, councils, and federal facilities across Perth, we currently face significant operational constraints that limit our capacity to tender for and deliver large-scale projects.
 
-This 35-week digital transformation initiative comprises four integrated phases that systematically build our capability from foundational safety compliance automation through to a complete project delivery platform. Beginning with digitising our proven safety documentation processes, progressing through mobile field operations and intelligent resource management, and culminating in a unified project management platform, this project directly addresses the Australian Government's priority of strengthening domestic supply chain capabilities for major infrastructure delivery.
+This 35-week digital transformation initiative comprises four integrated phases that systematically build our capability from quality data capture at source through to complete mobile field operations. Beginning with enhancing our existing ServiceM8 system to capture comprehensive job intelligence, progressing through intelligent scheduling system replacement, automated safety documentation, and culminating in mobile field access, this project directly addresses the Australian Government's priority of strengthening domestic supply chain capabilities for major infrastructure delivery.
 
 Our current manual processes consume over 50% of administrative time on safety documentation, scheduling, and project management - directly impacting our ability to scale for larger contracts. This digital transformation will reduce documentation time by 90%, eliminate paper-based field processes entirely, and create real-time visibility across all operations. The integrated platform will enable us to manage multiple concurrent major projects whilst maintaining the stringent safety and compliance standards required for infrastructure work.
 
@@ -22,28 +22,28 @@ The project aligns with national infrastructure priorities by enhancing a critic
 
 ### Strategic Objective
 
-Transform Savana Environmental from a paper-based, manually-intensive operation into a digitally-enabled enterprise capable of competing for and delivering major infrastructure projects through systematic automation of safety compliance, field operations, resource management, and project delivery systems.
+Transform Savana Environmental from a fragmented, manually-intensive operation into a digitally-integrated enterprise capable of competing for and delivering major infrastructure projects through systematic quality data capture at source, intelligent resource allocation, automated safety compliance, and mobile field operations enabling seamless project delivery at scale.
 
 ### Current State Challenges
 
 | Challenge Area | Current Impact | Major Project Limitation |
 |----------------|----------------|-------------------------|
-| Safety Documentation | 4+ hours per project creating ARCP/SWMS documents | Cannot scale documentation for multiple concurrent projects |
-| Field Operations | Paper-based processes with 2-3 hours daily processing | No real-time visibility for project managers on large sites |
-| Resource Scheduling | Manual Excel "by the minute" updates | Unable to optimise resources across multiple project sites |
-| Project Management | Disconnected systems (ServiceM8, ConnectTeam, MYOB) | No integrated view for major project reporting |
-| Compliance Tracking | Manual verification across multiple systems | Risk of non-compliance on complex projects |
+| Fragmented Data Systems | Disconnected systems (ServiceM8, ConnectTeam, MYOB, Excel) | No integrated view for major project reporting |
+| Manual Scheduling Chaos | Dual Excel spreadsheet "by the minute" updates (4-6 hours daily) | Cannot optimise resources across multiple project sites |
+| Safety Documentation | Manual template searching and 2-3 hours per document creation | Cannot scale documentation for multiple concurrent projects |
+| Paper Field Operations | Physical processes with 2-3 hours daily processing | No real-time visibility for project managers on large sites |
+| Single-Person Dependencies | Critical knowledge residing with individual staff members | Business continuity risk for major project delivery |
 | Invoice Processing | 5-7 day quote-to-invoice cycle | Cash flow constraints for large project mobilisation |
 
 ### Future State Capability
 
 Upon completion of this digital transformation, Savana Environmental will operate with:
 
-- **Automated Safety Compliance**: AI-powered documentation reducing creation time to under 30 minutes
-- **Mobile Field Operations**: 100% digital field processes with real-time compliance visibility
-- **Intelligent Resource Management**: Automated scheduling optimising 30+ workers across multiple sites
-- **Integrated Project Platform**: Unified system from quote to completion with real-time cost tracking
-- **Major Project Readiness**: Capability to manage 5+ concurrent major projects with full compliance
+- **Enhanced Data Capture**: ServiceM8 system capturing comprehensive job intelligence at source with quality data feeding all downstream processes
+- **Intelligent Resource Management**: Automated scheduling system replacing dual Excel spreadsheets, optimising 30+ workers across multiple sites
+- **Automated Safety Compliance**: API-connected documentation templates reducing creation time to under 30 minutes using integrated data
+- **Mobile Field Operations**: 100% digital field processes with real-time compliance visibility and seamless office synchronisation
+- **Major Project Readiness**: Capability to manage 5+ concurrent major projects with full compliance and integrated reporting
 
 ## Implementation Approach
 
@@ -51,17 +51,17 @@ The project follows a progressive capability-building approach across four seque
 
 ### Phase Structure
 
-**[Phase 1: Safety Documentation Automation - To be inserted]**  
-*Foundation phase establishing digital compliance capability*
+**[Phase 1: ServiceM8 Enhancement & Data Quality - To be inserted]**  
+*Foundation phase establishing quality data capture at source through enhanced ServiceM8 system*
 
-**[Phase 2: Digital Field Documentation - To be inserted]**  
-*Mobile enablement leveraging Phase 1's digital documents*
+**[Phase 2: Intelligent Scheduling System - To be inserted]**  
+*Replace dual Excel spreadsheet chaos with automated resource allocation using Phase 1 data*
 
-**[Phase 3: Intelligent Scheduling System - To be inserted]**  
-*Resource optimisation using Phase 1-2 data integration*
+**[Phase 3: Safety Documentation Automation - To be inserted]**  
+*API-connected document templates leveraging integrated data from Phases 1-2*
 
-**[Phase 4: Custom Field Management Platform - To be inserted]**  
-*Unified platform integrating all previous phase capabilities*
+**[Phase 4: Mobile Field Documentation - To be inserted]**  
+*Mobile access to integrated digital ecosystem with real-time field synchronisation*
 
 ## Project Timeline
 
@@ -69,10 +69,10 @@ The project follows a progressive capability-building approach across four seque
 
 | Phase | Description | Start Date | End Date | Duration | Dependencies |
 |-------|------------|------------|----------|----------|--------------|
-| **Phase 1** | Safety Documentation Automation | 1 Oct 2025 | 26 Nov 2025 | 8 weeks | Foundation - No dependencies |
-| **Phase 2** | Digital Field Documentation | 26 Nov 2025 | 24 Dec 2025 | 4 weeks | Requires Phase 1 completion |
-| **Phase 3** | Intelligent Scheduling System | 9 Dec 2025 | 3 Feb 2026 | 8 weeks | Parallel with Phase 2, uses Phase 1 data |
-| **Phase 4** | Custom Field Management Platform | 3 Feb 2026 | 5 May 2026 | 13 weeks | Integrates Phases 1-3 |
+| **Phase 1** | ServiceM8 Enhancement & Data Quality | 1 Oct 2025 | 26 Nov 2025 | 8 weeks | Foundation - No dependencies |
+| **Phase 2** | Intelligent Scheduling System | 26 Nov 2025 | 24 Dec 2025 | 4 weeks | Requires Phase 1 completion |
+| **Phase 3** | Safety Documentation Automation | 9 Dec 2025 | 3 Feb 2026 | 8 weeks | Parallel with Phase 2, uses Phase 1 data |
+| **Phase 4** | Mobile Field Documentation | 3 Feb 2026 | 5 May 2026 | 13 weeks | Integrates Phases 1-3 |
 | **Integration** | System-wide Testing & Optimisation | 5 May 2026 | 31 May 2026 | 4 weeks | All phases complete |
 | **Total** | **Complete Digital Transformation** | **1 Oct 2025** | **31 May 2026** | **35 weeks** | - |
 
@@ -80,10 +80,10 @@ The project follows a progressive capability-building approach across four seque
 
 | Milestone | Date | Deliverable | Success Criteria |
 |-----------|------|-------------|------------------|
-| Phase 1 Completion | 26 Nov 2025 | Automated safety documentation system | <30 min document creation |
-| Phase 2 Go-Live | 24 Dec 2025 | Mobile field operations platform | 100% digital field processes |
-| Phase 3 Deployment | 3 Feb 2026 | Intelligent scheduling system | <1 hour daily scheduling |
-| Phase 4 Launch | 5 May 2026 | Integrated project platform | ServiceM8 replacement complete |
+| Phase 1 Completion | 26 Nov 2025 | Enhanced ServiceM8 with quality data capture | Comprehensive job intelligence at source |
+| Phase 2 Go-Live | 24 Dec 2025 | Intelligent scheduling system replacing dual Excel | <1 hour daily scheduling |
+| Phase 3 Deployment | 3 Feb 2026 | Automated safety documentation system | <30 min document creation |
+| Phase 4 Launch | 5 May 2026 | Mobile field operations platform | 100% digital field processes |
 | Project Completion | 31 May 2026 | Full digital transformation | Major project capability achieved |
 
 ## Budget Summary
@@ -230,10 +230,10 @@ The project follows a progressive capability-building approach across four seque
 
 | Phase | Key Metric | Current | Target | Measurement |
 |-------|-----------|---------|--------|-------------|
-| Phase 1 | Document Creation Time | 4+ hours | <30 minutes | Time tracking |
-| Phase 2 | Digital Field Adoption | 0% | 100% | System usage |
-| Phase 3 | Scheduling Efficiency | Continuous updates | <1 hour/day | Time logs |
-| Phase 4 | Invoice Processing | 5-7 days | <24 hours | Process metrics |
+| Phase 1 | Data Quality at Source | Fragmented manual entry | Comprehensive automated capture | Data completeness tracking |
+| Phase 2 | Scheduling Efficiency | 4-6 hours daily dual Excel updates | <1 hour/day automated allocation | Time logs |
+| Phase 3 | Document Creation Time | 2-3 hours manual template searching | <30 minutes automated pre-population | Time tracking |
+| Phase 4 | Digital Field Adoption | 0% paper-based processes | 100% mobile digital processes | System usage |
 
 ### Overall Project Success Criteria
 
