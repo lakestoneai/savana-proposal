@@ -7,7 +7,7 @@
 
 ## Executive Summary
 
-**Project Goal**: Digitalise Savana's proven safety documentation workflow through intelligent template matching and automated pre-population, reducing document creation time from hours to minutes per day while maintaining HSEQ-approved compliance standards and expert validation processes.
+**Project Goal**: Automate Savana's safety documentation creation by connecting Microsoft document templates to Phase 1 and Phase 2 data systems via APIs, enabling 70-80% pre-population of ARCP and SWMS documents while maintaining expert validation and compliance standards.
 
 **Client Profile:**
 - **Company:** Savana Environmental (asbestos removal contractor)
@@ -21,13 +21,13 @@
   - Federal facilities (Defence bases - special permit requirements)
 
 **Expected Impact**:
-- Improve compliance consistency across all jobs
-- Enable faster document generation and review cycles
-- Reduce errors from manual data entry
-- Establish ISO 45001:2018 compliant Safety Management System framework
-- Ensure ISO 27001:2013 data security compliance for all documentation
-- Create auditable compliance trail for WorkSafe and major project client requirements
-- **Foundation for Digital Transformation**: Enables mobile field operations (Phase 2), intelligent scheduling (Phase 3), and integrated project delivery (Phase 4)
+- **Document Creation Efficiency**: Reduce safety document creation from 2-3 hours to 30-45 minutes per job
+- **Data Integration**: Eliminate manual template searching and field transcription using Phase 1-2 integrated data
+- **Pre-Population Automation**: 70-80% of document fields automatically populated from ServiceM8 and scheduling systems
+- **Compliance Consistency**: Standardised documentation using validated templates with automated compliance checking
+- **Error Elimination**: Remove manual transcription errors between ServiceM8, scheduling, and safety documentation
+- **Expert Review Maintained**: Preserve critical hazard validation and hygienist approval processes
+- **Business Continuity**: Reduce dependency on individual knowledge through systematic template automation
 
 ## Critical Workflow Discoveries
 
@@ -213,7 +213,7 @@ With quality data now flowing from Phase 1 (enhanced ServiceM8) and Phase 2 (int
 - Site-specific permit requirement flagging
 
 **Expert Review Workflow:**
-- Hazard assessment validation (cannot be fully automated for safety compliance)
+- Hazard assessment validation
 - Final compliance approval before document release
 - Hygienist: Mandatory review process maintained
 - Client Review: Flexible workflow based on client preferences
