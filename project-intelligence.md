@@ -4,8 +4,8 @@
 *Comprehensive project knowledge for context preservation across sessions*
 
 ## Document Synchronization Control
-**Last Intelligence Update**: August 29, 2025 05:42 UTC  
-**Intelligence Database Version**: 1.0  
+**Last Intelligence Update**: August 29, 2025 10:45 UTC  
+**Intelligence Database Version**: 2.0 - MAJOR UPDATE  
 
 ### Source Document Versions
 | Document | Last Modified | Word Count | Sync Status |
@@ -40,7 +40,9 @@
 
 **Project Context**: Digital transformation proposal for Savana Environmental developed by consultant/supplier
 
-**Single Strategic Objective**: Transform Savana Environmental from manual, error-prone operations to digitally-enabled enterprise by establishing quality data at source (quote system), then building comprehensive capabilities for major infrastructure project delivery through 4 sequential phases.
+**Single Strategic Objective**: Transform Savana Environmental from manual, error-prone operations to digitally-enabled enterprise by enhancing ServiceM8 with quality data capture at source (comprehensive quote system), then building intelligent scheduling and field operations capabilities for major infrastructure project delivery through 4 sequential phases.
+
+**CRITICAL DISCOVERY**: ServiceM8 has recently released Android app but it's inadequate (2.7-star rating) for comprehensive business needs. Strategy shifted from "replacement" to "enhancement" approach.
 
 **Timeline**: 28 weeks (October 1, 2025 - April 14, 2026)
 **Proposal Value**: $100,000 (ex GST)
@@ -62,91 +64,98 @@
 
 ## Detailed Phase Intelligence
 
-### Phase 1: Intelligent Quote System (DATA QUALITY AT SOURCE)
-**Duration**: 10 weeks (Oct 1 - Dec 10, 2025)  
+### Phase 1: ServiceM8 Enhancement with Comprehensive Quote Capture (DATA QUALITY AT SOURCE)
+**Duration**: 13 weeks (Feb 3 - May 5, 2026)  
 **Budget**: $35,000  
-**Core Objective**: Establish structured, quality data foundation that eliminates downstream errors
+**Core Objective**: Enhance ServiceM8's proven strengths by solving Android limitations and comprehensive data capture needs
+
+**CRITICAL INSIGHT**: ServiceM8 has valuable MYOB integration and multi-year data but recently released Android app is inadequate (2.7-star rating). Solution enhances rather than replaces ServiceM8.
+
+**Implementation Options**:
+- **Option A**: Native Android App + ServiceM8 Desktop (conservative)
+- **Option B**: Progressive Web App (unified cross-platform solution)
 
 **Key Deliverables**:
-- Advanced quote generation with job specification intelligence
-- Client requirement capture and structured data fields
-- Equipment/resource requirement definition system
-- Site condition assessment and hazard pre-identification
-- ConnectTeam integration for resource availability and qualifications
-- MYOB integration for accurate costing and margin management
-- ServiceM8 replacement planning and data migration strategy
-- Quote-to-job workflow automation foundation
+- Android-capable comprehensive quote capture feeding INTO ServiceM8
+- 8+ critical data points captured at source (property type, safety requirements, PPE needs, technician requirements, equipment, historical context, split entity classification)
+- ServiceM8 API integration preserving MYOB workflow
+- ConnectTeam integration for qualification verification
+- Offline capability (48-hour retention) for field operations
 
 **Technical Architecture**:
-- Intelligent form system with conditional logic and validation
-- Client database integration with historical job patterns
-- Resource requirement matrix with qualification matching
-- Cost calculation engine with real-time MYOB integration
-- Quote approval workflow with revision control
-- Data quality validation and error prevention
+- Mobile application (React Native/Flutter) OR Progressive Web App
+- RESTful API middleware for ServiceM8 integration
+- Cloud synchronisation with offline-first design
+- Structured data forms with conditional logic
+- Photo capture with annotation and GPS tagging
 
 **Critical Integrations**:
-- ConnectTeam API (resource availability, qualifications, costing)
-- MYOB API (pricing data, cost centres, profit margins)
-- Limited ServiceM8 integration (data export for migration planning)
-- Google Maps API (emergency plan generation)
+- **ServiceM8 API** (primary integration - enhances existing system)
+- **ConnectTeam API** (qualification verification during quote)
+- **MYOB Integration** (preserved via existing ServiceM8 workflow)
 
 **Success Metrics**:
-- Quote preparation time: <45 minutes (from 2-3 hours)
-- Quote accuracy: >95% first-time acceptance
-- Cost estimation precision: ±5% variance
-- Resource allocation accuracy: >90%
-- Quote win rate improvement: +15%
+- Field workforce enablement: 100% (vs ServiceM8's inadequate mobile app)
+- Manual processing elimination: 6-8 hours saved per quote
+- Quote data comprehensiveness: 8+ critical data points captured
+- ServiceM8 investment protection: $6,000/year system enhanced, not replaced
 
 **Phase 2 Enablement**:
-- Structured job specifications for field teams
-- Pre-identified hazards and safety requirements
-- Accurate resource and equipment lists
-- Complete client requirement documentation
+- Quality data from Phase 1 enables intelligent scheduling (replacing Excel chaos)
+- Comprehensive job requirements feed scheduling decisions
+- ConnectTeam integration provides worker qualification data
 
-### Phase 2: Smart Safety Documentation (LEVERAGING QUOTE DATA)
-**Duration**: 6 weeks (Dec 10, 2025 - Jan 21, 2026)  
+### Phase 2: Intelligent Scheduling System (REPLACING DUAL SPREADSHEET CHAOS)
+**Duration**: 8 weeks (Dec 9, 2025 - Feb 3, 2026)  
 **Budget**: $25,000  
-**Core Objective**: Generate intelligent safety documentation from Phase 1 structured quote data
+**Core Objective**: Replace manual dual Excel spreadsheet system with intelligent scheduling leveraging Phase 1's enhanced ServiceM8 data
+
+**CRITICAL DISCOVERY**: Savana operates two separate Excel spreadsheets for scheduling:
+1. **Job Overview Spreadsheet**: Manual checklist from ServiceM8 quotes for safety prep
+2. **Employee Allocation Spreadsheet**: Flat file showing only names/availability, no skills/history tracking
+
+**Current Crisis**: 
+- 4-6 hours/day constant spreadsheet maintenance
+- Manual transcription (30-60 minutes per job from ServiceM8)
+- Documented overbooking failures from manual counting errors
+- Single person holds all scheduling knowledge (business continuity risk)
+- Complete system isolation - no data flows between Excel sheets or other systems
 
 **Key Deliverables**:
-- AI-powered ARCP/SWMS generation leveraging Phase 1 quote specifications
-- Automated hazard identification from quote-captured site conditions
-- Equipment-specific safety procedures based on Phase 1 resource lists
-- Mobile field documentation with GPS-tagged photo evidence
-- Real-time safety compliance validation using quote data
-- Pre-populated safety documents reducing creation time from 4+ hours to <30 minutes
+- Intelligent scheduling system replacing both Excel spreadsheets
+- Automated job intake from Phase 1's enhanced ServiceM8 data
+- ConnectTeam integration for qualification matching and availability
+- Drag-and-drop scheduling interface (Excel-like familiarity)
+- Automated conflict detection and "Plan B" alternatives
+- Real-time resource utilisation visibility
 
 **Technical Architecture**:
-- PWA approach (faster deployment, no app store delays)
-- Offline-first design with background sync
-- Digital signature compliance for audit requirements
-- PDF rendering and annotation on mobile
-- Version control preventing outdated document access
+- Cloud-based scheduling engine with RESTful APIs
+- Real-time data synchronisation across ServiceM8/ConnectTeam/MYOB
+- Mobile-responsive web interface for field access
+- Offline capability with intelligent sync
 
-**Field Workflow Transformation**:
-1. Morning briefing: Digital document access on tablets/phones
-2. Digital pre-starts: <10 minutes (from 20-30 minutes)
-3. Worker sign-on: Digital SWMS acknowledgment
-4. Live documentation: Real-time amendments with photos
-5. Compliance sync: Automatic office synchronization
-6. End-of-day: Digital completion verification
+**Intelligent Features**:
+- Automatic qualification matching from ConnectTeam
+- Location-based worker optimisation
+- Historical pattern learning for better assignments
+- Emergency reallocation tools (<15 minutes response)
 
 **Success Metrics**:
-- Paper elimination: 100%
-- Document retrieval: <30 seconds
-- Document loss rate: 0%
-- Pre-start time: <10 minutes
+- Scheduling time: <1 hour/day (from 4-6 hours continuous maintenance)
+- Resource utilisation: >95% efficiency
+- Schedule conflicts: <2 per week
+- Emergency reallocation: <15 minutes response time
+- Business continuity: Knowledge systematized, not person-dependent
 
 **Phase 3 Enablement**:
-- Real-time field data collection
-- Worker availability and status updates
-- Job progress visibility for scheduling
+- Intelligent scheduling foundation supports field documentation automation
+- Real-time resource allocation enables mobile workflow optimization
 
-### Phase 3: Intelligent Scheduling System (COMPLETE JOB DATA)
-**Duration**: 6 weeks (Jan 21 - Mar 3, 2026)  
+### Phase 3: Mobile Field Documentation System (BUILDING ON INTELLIGENT SCHEDULING)
+**Duration**: 4 weeks (Nov 26 - Dec 24, 2025)  
 **Budget**: $20,000  
-**Core Objective**: Leverage complete job specifications from Phase 1 for precision scheduling
+**Core Objective**: Enable mobile digital access to safety documentation, eliminating paper-based field processes
 
 **Key Deliverables**:
 - Drag-and-drop scheduling interface (Excel-like familiarity)
