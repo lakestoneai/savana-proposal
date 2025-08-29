@@ -7,119 +7,181 @@
 
 ## Executive Summary
 
-**Project Goal**: Enhance ServiceM8 with a custom field management platform that integrates all previous phases (safety automation, mobile operations, intelligent scheduling) with ConnectTeam's HR capabilities and MYOB's financial systems, delivering complete digital transformation for major project supply chain capability.
+**Project Goal**: 
 
 **Expected Impact**:
-- **Complete Digital Transformation**: Integrates all Phase 1-3 capabilities into unified platform
-- **Major Project Readiness**: End-to-end digital capability for large infrastructure projects
-- Eliminate paper-based job completion entirely through Phase 1-2 integration
-- Save additional 20+ hours/week through unified platform combining all previous phases
-- Enable real-time job costing leveraging Phase 3's intelligent scheduling
-- Reduce invoicing delays from days to hours using Phase 1's automated compliance
-- **ServiceM8 Replacement**: Purpose-built solution incorporating all digital transformation phases
+- **
 
 ## ServiceM8 Current State Analysis
 
 ### ServiceM8 Strengths for Savana
 
-| Strength | Current Capability | Business Value | Integration Quality |
-|----------|-------------------|----------------|-------------------|
-| **Multi-Year Data Repository** | Extensive historical job, client, and pricing data | Invaluable business intelligence foundation | Excellent - years of proven data |
-| **MYOB Financial Integration** | Seamless quote→job→invoice→payment workflow | Complete financial lifecycle automation | Excellent - proven integration |
-| **Job Lifecycle Management** | Quote acceptance converts to job with unique job numbers | Professional project tracking and organisation | Excellent - established workflow |
-| **Document Storage Capability** | File attachment and storage within job records | Centralised job documentation and history | Good - integrated file management |
-| **Cost-Effective Solution** | Low monthly subscription for comprehensive functionality | Exceptional value for money and feature set | Excellent - proven cost efficiency |
-| **Accounting Tool Integration** | Built-in accounting capabilities with MYOB sync | Streamlined financial processes and reporting | Excellent - reduces system complexity |
-| **Payment Status Automation** | Automatic status updates from MYOB reconciliation | Real-time visibility of job payment status | Excellent - automated cash flow tracking |
+| Strength                        | Current Capability                                                      | Business Value                                 | Integration Quality                          |
+| ------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------- | -------------------------------------------- |
+| **Multi-Year Data Repository**  | Extensive historical job, client, and pricing data                      | Invaluable business intelligence foundation    | Excellent - years of proven data             |
+| **MYOB Financial Integration**  | Seamless quote→job→invoice→payment workflow                             | Complete financial lifecycle automation        | Excellent - proven integration               |
+| **Job Lifecycle Management**    | Quote acceptance converts to job with unique job numbers                | Professional project tracking and organisation | Excellent - established workflow             |
+| **Document Storage Capability** | File attachment and storage within job records                          | Centralised job documentation and history      | Good - integrated file management            |
+| **Cost-Effective Solution**     | Low monthly subscription for comprehensive functionality                | Exceptional value for money and feature set    | Excellent - proven cost efficiency           |
+| **Accounting Tool Integration** | Built-in accounting capabilities with MYOB sync                         | Streamlined financial processes and reporting  | Excellent - reduces system complexity        |
+| **Payment Status Automation**   | Automatic status updates from MYOB reconciliation                       | Real-time visibility of job payment status     | Excellent - automated cash flow tracking     |
+| **Email Integration**           | Quotes and customer email threads captured inside quote and job history | Single point of reference                      | Excellent - well established API integration |
 
-**Key Integration Success**: ServiceM8→MYOB workflow represents a **proven, stable foundation** that has served Savana effectively for multiple years with reliable quote-to-cash automation.
+**Key Integration Success**: ServiceM8→MYOB workflow represents a **proven, stable foundation** that has served Savana effectively for multiple years with reliable quote-to-payment automation.
 
 ### Current System Limitations
 
 | Area | Current Process | Time Impact | Risk Level |
 |------|----------------|-------------|------------|
-| ServiceM8 Limitations | No Android app, limited API, no completion trigger | Variable delays | High - incomplete automation |
-| Job Completion | Still paper-based despite digital systems | 2-3 hours/day | Critical - compliance gap |
-| Quote to Invoice | Manual data transfer between systems | 1-2 hours/day | Medium - billing delays |
-| Field Data Capture | Limited to photos, no structured forms | Lost opportunities | Medium - quality issues |
-| Split Entity Management | Manual tracking Savana/Savana Environmental | 30 mins/day | High - compliance risk |
+| **Android App Gap** | No Android app for majority Android workforce | Cannot capture field quotes | Critical - lost opportunities |
+| **Field Quote Capture** | Basic web interface, no structured data capture | Incomplete job information | High - missing requirements |
+| **Safety Requirements** | Cannot capture safety needs during quoting | Post-quote rework required | Critical - compliance risk |
+| **Scheduling Data** | No resource requirements captured at source | Manual follow-up needed | High - delays job start |
+| **Asset Requirements** | Equipment needs not documented during quote | Scramble for resources later | Medium - project delays |
+| **Split Job Processing** | Cannot identify multi-entity jobs at quote stage | Manual separation post-job | High - billing errors |
+| **Job Completion** | Still paper-based despite digital systems | 2-3 hours/day | Critical - compliance gap |
+| **Quote to Invoice** | Manual data transfer between systems | 1-2 hours/day | Medium - billing delays |
 
-### Current Workflow Gaps
+### Critical Workflow Gap: Quote-Stage Data Capture
 
-- **Field Worker Systems**: Field workers use ConnectTeam for time but ServiceM8 for jobs (disconnected)
-- **Job Completion Trigger**: No digital job completion trigger for invoicing
-- **Safety Documentation**: Safety documents exist digitally but aren't linked to job completion
-- **MYOB Integration**: MYOB integration is one-way only (can't update or delete)
-- **Job Profitability**: No real-time visibility of job profitability
+**The Core Problem**: ServiceM8's limited Android functionality prevents field teams from capturing comprehensive job requirements during the critical quote stage. This creates a cascade of downstream inefficiencies:
 
-## Proposed Solution: Custom Field Management Platform
+**Missing Quote-Stage Data Points:**
+
+| Data Category | What Cannot Be Captured | Downstream Impact | Integration Blocked |
+|---------------|------------------------|-------------------|-------------------|
+| **Property Classification** | Property type, access requirements, site conditions | Wrong crew/equipment sent | Asset management tools |
+| **Safety Requirements** | Specific SWMS needed, hazard assessments, site risks | Compliance scramble post-acceptance | Safety management systems |
+| **PPE Requirements** | Equipment needed per technician, special safety gear | Workers arrive unprepared | Inventory management |
+| **Technician Requirements** | Number needed, skill levels, certifications required | Cannot verify qualifications | ConnectTeam integration |
+| **Resource Allocation** | Cannot pre-assign technicians during quote | Manual scheduling post-acceptance | Scheduling systems |
+| **Historical Context** | Cannot reference similar jobs for pricing/requirements | Pricing inconsistencies | Knowledge management |
+| **Equipment Requirements** | Specialised tools, vehicles, machinery needed | Equipment unavailable when needed | Asset management tools |
+| **Experience Requirements** | Years of experience, specific project types | Wrong skill level assigned | HR systems |
+
+**The Cascade Effect of Poor Quote Data:**
+
+1. **Quote Created** (missing 8+ critical data points) →
+2. **Quote Accepted** (scramble to gather requirements) →
+3. **Manual Data Collection** (2-3 hours phoning, emailing) →
+4. **ConnectTeam Check** (manual qualification verification) →
+5. **Safety Documentation** (rushed SWMS creation) →
+6. **Resource Hunt** (finding available equipment/crew) →
+7. **Job Delays** (waiting for proper resources) →
+8. **Customer Impact** (late starts, wrong crew, missing equipment)
+
+**Integration Paralysis**: Without structured quote data, Savana cannot:
+- Integrate with ConnectTeam for automatic qualification verification
+- Utilise asset management tools for equipment scheduling
+- Implement predictive resource planning
+- Automate safety documentation preparation
+- Build historical job intelligence for accurate pricing
+
+**The Manual Handling Crisis**: Because ServiceM8 cannot capture structured quote data, every downstream process becomes manual:
+
+- **Safety Documentation**: Administrators spend 3-4 hours per job manually creating safety documents because they lack upfront hazard and site information. Nothing can be automated or templated - it's all manual handling with no ability to double-check against requirements.
+
+- **Scheduling Impossibility**: Without resource requirements at quote stage, scheduling becomes pure guesswork. Manual allocation increases incorrect resourcing risk by 40%, leading to wrong crews at wrong sites with wrong equipment.
+
+- **Equipment Failures**: Bad quote data means equipment needs are discovered day-of-job. Teams arrive without proper tools, vehicles, or machinery - causing 2-3 hour delays while equipment is sourced.
+
+- **Qualification Gaps**: Cannot verify technician qualifications against job requirements because requirements weren't captured. Workers arrive without necessary certifications, forcing job cancellations or compliance violations.
+
+**The Foundation Problem**: ServiceM8's quote module is the first entry point for ALL job data, yet it cannot capture the structured information Savana needs. This inadequate foundation corrupts every subsequent process, making automation impossible and forcing expensive manual workarounds.
+
+**Why Automation is Imperative**: Savana needs an automated input method that captures comprehensive, structured data at the quote stage and feeds quality information INTO ServiceM8. This isn't about replacing ServiceM8 - it's about fixing the critical data quality problem at the earliest touchpoint, enabling all downstream processes to function efficiently.
+
+**Business Impact**: Every quote missing this critical data creates 6-8 hours of manual processing, delays job commencement by 2-3 days, increases safety risks, and prevents Savana from bidding on major infrastructure projects that require comprehensive upfront documentation and resource planning. Without fixing this quote-stage data capture, Savana cannot scale beyond their current manual limitations.
+
+## Proposed Solution: Integrated ServiceM8 API Quotation Solution
 
 ### Core Philosophy
 
-Phase 4 transforms field operations from disconnected ServiceM8/paper-based workflows to a unified digital platform that integrates Phase 1's safety automation, Phase 2's mobile capabilities, and Phase 3's intelligent scheduling with ConnectTeam's successful HR capabilities whilst providing complete job lifecycle management and seamless MYOB integration for major project delivery capability.
+**Enhance, Don't Replace**: This solution enhances ServiceM8's proven strengths by creating a sophisticated data capture layer that feeds quality information INTO ServiceM8 from the first touchpoint. We're not replacing ServiceM8 - we're solving its critical Android and data capture limitations while preserving the valuable MYOB integration and multi-year data repository.
+
+**Quality Data at Source**: By capturing comprehensive, structured data at the quote stage through a custom mobile solution, we transform ServiceM8 from a basic quote system into an intelligent business platform that enables automation across safety, scheduling, and resource management.
 
 ### Key Capabilities
 
-**Mobile-First Job Management:**
-- Digital job cards with pre-populated quote data
-- Structured hazard reporting and safety documentation
-- Material usage tracking with photo annotations
-- Customer signature capture and approval workflow
+**1. Android-Native Quote Capture Application**
+- Full offline capability for field quoting (48-hour data retention)
+- Structured data forms capturing all 8+ critical data points
+- Smart conditional logic based on property type and job requirements
+- Photo capture with annotation for visual documentation
+- GPS tagging and site access notes
 
-**ConnectTeam Integration Hub:**
-- Single sign-on from ConnectTeam for familiar experience
-- Automatic timesheet data flow and geo-location sharing
-- Training compliance verification and unified mobile experience
-- Push notification coordination across platforms
+**2. ServiceM8 API Integration**
+- Seamless data push into ServiceM8 quote system
+- Enriched quote data structure while maintaining ServiceM8 workflow
+- Automatic job number generation upon quote acceptance
+- Preserves existing MYOB integration pathway
 
-**Quote to Cash Automation:**
-- Advanced quoting with two-way MYOB sync
-- Job completion triggers automatic invoice generation
-- Variation capture in field with real-time cost calculation
-- Direct MYOB push with reconciliation capabilities
+**3. Intelligent Data Capture Forms**
+- Property type selection (residential, commercial, industrial, infrastructure)
+- Safety requirement checkboxes (heights, confined space, hazardous materials)
+- PPE requirement builder based on job type
+- Technician requirement calculator (number, skills, certifications)
+- Equipment and asset requirement checklist
+- Historical job reference lookup
+- Split entity identification (Savana vs Savana Environmental)
+
+**4. Integration Enablement**
+- ConnectTeam API for real-time qualification verification
+- Safety document pre-population based on captured requirements
+- Resource scheduling data for planning systems
+- Asset management integration for equipment booking
+
 
 ### Daily Operational Workflow
 
-**Phase 4 Process:**
+**Enhanced Quote-to-Job Process:**
 
-1. **ConnectTeam Login**: Field workers log into ConnectTeam which triggers availability in custom platform
-2. **Digital Job Access**: Access safety documents from Phase 1 automation linked to specific jobs
-3. **Digital Job Cards**: Complete jobs using structured data capture forms, replacing paper entirely
-4. **Real-time Completion**: Complete jobs digitally which triggers both timecard completion AND invoice generation
-5. **Automatic Sync**: Real-time sync to MYOB for invoicing and comprehensive job costing
-6. **Unified Experience**: Single mobile workflow from clock-in through job completion
+1. **Field Quote Creation** (Mobile App):
+   - Estimator arrives on-site with Android device
+   - Opens custom quote application (works offline)
+   - Captures all structured data points via smart forms
+   - Takes annotated photos of site conditions
+   - Customer signs digitally on device
+
+2. **Automatic Data Enrichment**:
+   - App syncs with ServiceM8 via API
+   - Quote created with full data structure
+   - Safety requirements trigger SWMS preparation
+   - Resource requirements enable scheduling
+   - Qualification needs verified against ConnectTeam
+
+3. **ServiceM8 Workflow Continues**:
+   - Quote acceptance converts to job (existing process)
+   - MYOB integration remains unchanged
+   - Invoice and payment flow preserved
+   - But now with quality data enabling automation
+
+4. **Downstream Automation Enabled**:
+   - Safety team pre-populates SWMS from quote data
+   - Scheduling team has resource requirements upfront
+   - Equipment booking automated based on needs
+   - Qualification matching prevents compliance issues
+
+**Transformation Impact**: From 6-8 hours of manual data gathering to instant automation - all because quality data was captured at the source.
+
 
 ## Technology & Compliance
 
 ### Technical Platform
 
 **System Architecture:**
-- React Native/Flutter cross-platform mobile application
-- Node.js/Python backend with RESTful APIs
-- PostgreSQL multi-tenant database architecture
-- Redis caching and RabbitMQ job processing
-- 72-hour offline data retention with intelligent sync
+-
 
 **Core Technical Features:**
-- Digital job cards with conditional logic smart forms
-- Photo capture with markup and annotation capabilities
-- Electronic signature capture for customer approval
-- Material tracking module with usage monitoring
-- Offline-first architecture with conflict resolution
+-
 
 **API Integrations:**
 
 **ConnectTeam Integration:**
-- OAuth 2.0 authentication and single sign-on
-- Real-time timesheet sync via webhooks
-- Geo-location data streaming for dispatch
-- Training compliance verification and award rate pass-through
+-
 
 **MYOB Integration:**
-- Full REST API implementation with two-way sync
-- Quote to invoice workflow automation
-- GL code mapping and split entity accounting
-- Real-time line item synchronisation
+- 
 
 ### Compliance Standards
 

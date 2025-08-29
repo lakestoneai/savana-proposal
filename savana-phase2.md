@@ -1,246 +1,286 @@
-# Phase 2: Digital Field Documentation Automation
+# Phase 2: Intelligent Scheduling System with ServiceM8/Excel/Connecteam Integration
 
-**Project Duration:** 4 Weeks  
-**Implementation Period:** Phase 2 - Building on Digital Foundation  
-**Start Date:** November 26, 2025  
-**End Date:** December 24, 2025
+**Project Duration:** 8 Weeks  
+**Implementation Period:** Phase 3 - Building on Digital Foundation and Mobile Capabilities  
+**Start Date:** December 9, 2025  
+**End Date:** February 3, 2026
 
 ## Executive Summary
 
-**Project Goal**: Eliminate paper-based field processes and enable mobile digital access to Phase 1's automated safety documentation, reducing field documentation processing from 2-3 hours daily to near real-time updates.
+**Project Goal**: Replace Excel-based scheduling system with an intelligent, integrated platform that leverages Phase 1's compliance automation and Phase 2's mobile field data to automate resource allocation and reduce scheduling time from continuous manual updates to intelligent, real-time scheduling.
 
 **Expected Impact**:
-- 100% elimination of paper documentation in field operations
-- Zero document loss rate
-- Document retrieval under 30 seconds
-- Pre-start completion reduced from 20-30 minutes to under 10 minutes
-- Real-time safety documentation updates and amendments
-- **Builds on Phase 1**: Mobile access to automated safety documents
-- **Enables Phase 3**: Real-time field data for intelligent scheduling
-- **Prepares Phase 4**: Mobile architecture foundation for integrated platform
-- Ensure ISO 45001:2018 and ISO 27001:2013 compliance for major project requirements
+- Eliminate manual data duplication between systems
+- Enable real-time schedule optimisation using Phase 2 field data
+- Reduce scheduling conflicts to under 2 per week
+- Emergency reallocation completed within 15 minutes
+- Automated qualification verification leveraging Phase 1 compliance systems
+- **Builds on Previous Phases**: Integrates digital documents (Phase 1) and mobile data (Phase 2)
+- **Enables Phase 4**: Intelligent resource management foundation for integrated project delivery
 
-## Field Documentation Challenges
+## Scheduling Challenges
 
-### Current Paper-Based Limitations
+### Current Excel-Based Limitations
 
-- **Physical Document Risk**: Hard copies vulnerable to loss, damage, and weather exposure
-- **Version Control Issues**: Field teams often work with outdated document versions
-- **Manual Process Delays**: 20-30 minute handwritten pre-starts, 2-3 hours daily processing
-- **Compliance Visibility**: Office has no real-time view of field safety documentation completion
-- **Connectivity Dependency**: Field teams must call office for updates or amendments
 
-### Digital Field Requirements
+| Area | Current Process | Time Impact | Risk Level |
+|------|----------------|-------------|------------|
+| Manual Scheduling | Excel "by the minute" updates | Continuous throughout day | High - resource misallocation |
+| System Integration | No connection between Excel, ServiceM8, ConnectTeam | 2-3 hours/day duplicating data | High - data inconsistency |
+| Qualification Tracking | Manual verification across systems | 1-2 hours/day checking | Critical - compliance risk |
+| Resource Allocation | Manual assignment without optimisation | Variable delays | Medium - efficiency loss |
 
-- **Offline Capability**: Perth job sites often have poor connectivity
-- **Legal Compliance**: Digital signatures must meet WorkSafe audit standards
-- **Mobile Optimisation**: Interface suitable for field conditions and work environments
-- **Real-time Sync**: Immediate updates across office and field systems when connected 
+### Current Integration Reality
 
-## Proposed Solution: Digital Field Documentation System
+- **ServiceM8**: Limited to quoting only (no completion tracking)
+- **ConnectTeam**: Successfully handles geo-tagging and award rates
+- **MYOB**: Serves as master for line items and payroll
+- **Job Completion**: Still paper-based despite digital systems
+- **Excel Scheduling**: Completely disconnected from other systems
+
+## Proposed Solution: Intelligent Scheduling System
 
 ### Core Philosophy
 
-Phase 2 transforms field operations from paper-dependent to mobile-enabled digital workflows, leveraging Phase 1's automated safety documents to eliminate physical documentation while maintaining full safety compliance and WorkSafe audit requirements for major project delivery.
+Phase 3 transforms scheduling operations from manual Excel-based processes to an automated, intelligent platform that integrates Phase 1's compliance automation and Phase 2's mobile field data while providing real-time scheduling optimisation and resource allocation for major project delivery capability.
 
 ### Key Capabilities
 
-- **Mobile Access**: ARCP, SWMS, and Pre-start documents on tablets/smartphones
-- **Digital Signatures**: Legally compliant electronic sign-offs for all safety documentation
-- **Offline Operation**: Full functionality without internet connectivity, with automatic sync
-- **Real-time Updates**: Document amendments sync instantly across all devices
-- **Photo Integration**: Digital capture of compliance evidence with GPS tagging
-- **Version Control**: Automated document versioning prevents outdated information access
+**Intelligent Assignment Engine:**
+- Automatic qualification matching
+- Location-based worker optimisation
+- Conflict detection (worker preferences)
+- "Plan B" job suggestions
+
+**Integrated Dashboard:**
+- Drag-and-drop scheduling interface
+- Real-time multi-system synchronisation
+- Resource utilisation visualisation
+- Mobile accessibility
+
+**Automated Compliance:**
+- Qualification expiry warnings
+- Site-specific induction tracking
+- Critical ticket verification
+- Audit trail maintenance
 
 ### Daily Operational Workflow
 
-**Phase 2 Process:**
-1. **Morning Briefing**: Supervisors access job documents on mobile devices
-2. **Digital Pre-start**: Complete safety briefings digitally (under 10 minutes)
-3. **Worker Sign-on**: Digital acknowledgment of SWMS and safety requirements
-4. **Live Documentation**: Real-time amendments and photo evidence capture
-5. **Compliance Sync**: Automatic synchronisation of safety documentation with office
-6. **End-of-Day Review**: Digital completion verification and next-day preparation
+**Phase 3 Process:**
+
+1. **Job Intake**: System automatically pulls job details from ServiceM8 with location and requirements
+2. **Qualification Matching**: ConnectTeam integration verifies worker certifications and availability
+3. **Intelligent Assignment**: Algorithm suggests optimal worker allocation based on location, skills, and preferences
+4. **Conflict Resolution**: System detects scheduling conflicts and provides "Plan B" alternatives
+5. **Real-time Updates**: Changes sync across all systems immediately with notifications
+6. **Performance Monitoring**: Dashboard shows resource utilisation and scheduling efficiency metrics
 
 ## Technology & Compliance
 
 ### Technical Platform
 
-**Progressive Web App Architecture:**
-- Browser-based mobile interface optimised for tablets/smartphones
-- Cross-platform compatibility (iOS, Android, Windows tablets)
-- Offline-first design with robust synchronisation capability
-- No app store approval delays, faster deployment within 4-week timeline
+**System Architecture:**
+- Cloud-based scheduling engine
+- RESTful API connections
+- Real-time data synchronisation
+- Mobile-responsive web interface
+- Offline capability with sync
 
 **Core Technical Features:**
-- Minimum 48 hours offline data retention
-- Digital signature capability for legal compliance
-- PDF rendering and annotation capabilities
-- Photo integration with GPS tagging
-- Automatic background synchronisation
+- Drag-and-drop scheduling interface (Excel-like familiarity)
+- Intelligent resource optimisation algorithms
+- Real-time conflict detection and resolution
+- Automated qualification matching system
+- Location-based worker assignment optimisation
+
+**API Integrations:**
+
+**ConnectTeam Integration:**
+- Worker qualifications and certifications
+- Training expiry dates
+- Site-specific inductions
+- Real-time availability
+
+**ServiceM8 Integration:**
+- Job details and requirements
+- Location data
+- Customer information
+- Job status updates
 
 ### Compliance Standards
 
 **ISO 45001:2018 Safety Management System:**
-- Digital field documentation maintains systematic SMS approach
-- Real-time safety performance monitoring and continuous improvement tracking
-- Digital audit trails for all safety documentation and worker sign-offs
-- Automated compliance reporting and management review preparation
+- Automated worker qualification tracking and verification
+- Safety requirement matching in scheduling assignments
+- Systematic audit trail for all scheduling decisions
+- Integration with existing safety management workflows
 
 **ISO 27001:2013 Information Security:**
-- End-to-end encrypted data transmission for all field documentation
-- Australian-hosted cloud infrastructure for data sovereignty compliance
-- Role-based access controls for field workers, supervisors, and office staff
-- Complete digital audit trail for all document access and amendments
-- Mobile device security policies and encrypted local storage
+- Secure API connections with encrypted data transmission
+- Role-based access controls for scheduling system users
+- Integration security protocols with ServiceM8/ConnectTeam
+- Complete audit logging for all scheduling activities and changes
 
-**WorkSafe Compliance:**
-- Digital signatures meet audit requirements
-- Automated document version control ensures latest safety requirements
-- Real-time compliance verification and reporting capabilities
+**Compliance Automation:**
+- Qualification expiry warnings and tracking
+- Site-specific induction requirement verification
+- Critical ticket compliance checking
+- Automated compliance reporting capabilities
 
 ### Implementation Benefits
 
 **Immediate Value:**
 
-- **Eliminate Paper Loss**: Zero document loss rate from physical damage or misplacement
-- **Real-time Compliance**: Office gains instant visibility into field safety documentation status
-- **Time Efficiency**: Pre-start completion reduced from 20-30 minutes to under 10 minutes
-- **Version Control**: Field teams always access latest document versions from Phase 1 automation
-- **Digital Evidence**: Photo documentation provides comprehensive compliance evidence
-- **Reduced Processing**: Field documentation processing time drops from 2-3 hours daily to real-time updates
-- **Enables Phase 3**: Mobile data collection provides real-time inputs for intelligent scheduling
+- **Eliminate Manual Updates**: End continuous "by the minute" Excel scheduling updates
+- **Integrated Compliance**: Leverage Phase 1's automated qualification tracking and safety requirements
+- **Real-time Field Integration**: Use Phase 2's mobile field data for dynamic scheduling adjustments
+- **Conflict Detection**: Automatic identification of scheduling conflicts and worker preferences
+- **Resource Optimisation**: Location-based assignment reduces travel time and costs
+- **Major Project Readiness**: Intelligent resource allocation supports large infrastructure project demands
 
 **Long-term Advantages:**
 
-- **Operational Resilience**: Field operations continue seamlessly regardless of connectivity status
-- **Major Project Readiness**: Mobile compliance systems meet large infrastructure project requirements
-- **Phase 3 Foundation**: Real-time field data enables intelligent resource scheduling and allocation
-- **Phase 4 Architecture**: Mobile framework supports integrated project delivery platform
-- **Compliance Confidence**: Automated audit trails and digital signatures ensure WorkSafe audit readiness
-- **Data Integrity**: Single source of truth prevents document version confusion and transcription errors
+- **Strategic Resource Planning**: Utilise 95% resource efficiency through intelligent allocation
+- **Major Project Capacity**: Scaling capability for large infrastructure project requirements
+- **Phase 4 Foundation**: Intelligent scheduling enables comprehensive project delivery platform
+- **Advanced Scheduling Intelligence**: Machine learning algorithms analyze historical patterns to predict optimal resource allocation, worker performance metrics, and seasonal demand fluctuations. The system continuously improves scheduling accuracy through adaptive learning from completed jobs, weather patterns, and client preferences.
+- **Predictive Analytics**: Historical data analysis for improved scheduling decisions
+- **Cost Optimisation**: Reduced labour costs through efficient resource utilisation
+- **Data Integration**: Seamlessly connects Phase 1 compliance and Phase 2 mobile data
 
 **Risk Mitigation:**
 
-- **Maintains Safety Standards**: All WorkSafe and ISO compliance requirements preserved in digital format
-- **Gradual Transition**: Phased rollout allows teams to adapt while maintaining paper backup initially
-- **Offline Resilience**: Full functionality maintained during connectivity issues with automatic sync recovery
-- **User Adoption**: Familiar interface design mirrors paper document layout for intuitive transition
-- **Technical Support**: Dedicated support systems ensure smooth digital workflow adoption
+- **Familiar Interface**: Excel-like drag-and-drop interface ensures user adoption
+- **Parallel Running**: Two-week overlap with Excel system during transition
+- **Manual Override**: Ability to manually adjust automated scheduling decisions
+- **API Reliability**: Redundancy planning and fallback procedures for integration failures
+- **Comprehensive Training**: Video tutorials, quick reference guides, and dedicated support
 
+## Implementation Plan (December 9, 2025 - February 3, 2026)
 
-## Implementation Plan (November 26 - December 24, 2025)
+### December 9-30: System Design & Discovery
 
-### November 26 - December 10: Mobile Development
+- Map current Excel scheduling logic and worker assignment rules
+- Document "who won't work together" constraints and worker preferences
+- Design integration architecture with ServiceM8 and ConnectTeam APIs
+- Create UI mockups maintaining Excel familiarity for user adoption
+- Define location-based optimisation rules and conflict detection algorithms
+- Conduct requirements validation workshop with Jess and operations team
 
-- Design intuitive mobile interface mirroring paper document layouts
-- Build digital signature functionality for SWMS and pre-starts
-- Implement robust offline capability with automatic sync
-- Develop photo integration and GPS tagging features
-- Create synchronisation engine for field/office connectivity
+### December 30 - January 20: Development & Integration
 
-### December 10-24: Testing & Deployment
+- Build core drag-and-drop scheduling interface
+- Implement ConnectTeam API integration for qualification verification
+- Implement ServiceM8 API integration for real-time job data
+- Develop intelligent conflict detection and resolution algorithms
+- Create automated resource optimisation engine
+- Build notification system for real-time updates and alerts
 
-- Pilot with 5 supervisors on live safety documentation workflows
-- Test offline document access and synchronisation reliability
-- Gather field feedback and iterate interface design
-- Train all 30+ field workers on digital documentation system
-- Full deployment with comprehensive support procedures
-- Establish ongoing maintenance and support protocols
+### January 20 - February 3: Testing & Deployment
+
+- Conduct parallel run with existing Excel system for validation
+- Execute user acceptance testing with Jess and primary scheduling users
+- Deliver comprehensive training including video tutorials and quick reference guides
+- Execute full system cutover with Excel backup maintained for 2 weeks
+- Monitor system performance and optimise algorithms based on real usage
+- Establish ongoing support procedures and continuous improvement processes
+
 ## Resource Requirements
 
-### Development Team (4 weeks)
+### Development Team (8 weeks)
 
-- **Mobile Developer**: 160 hours for PWA development
-- **UX Designer**: 20 hours for field-optimised interface design
-- **Backend Developer**: 40 hours for synchronisation services
-- **QA Tester**: 30 hours for field scenario testing
+- **AI/Automation Developer**: 320 hours for intelligent scheduling algorithms and system development
+- **Integration Specialist**: 80 hours for ServiceM8 and ConnectTeam API integration
+- **UX Designer**: 20 hours for Excel-like interface design and user experience optimisation
+- **Change Management Specialist**: 10 hours for user adoption and training strategy
+- **Technical Support**: 40 hours for deployment support and system monitoring
+- **Total External**: 470 hours
 
 ### Internal Resources
 
-- **Field Testing Coordinator**: 40 hours for pilot program management
-- **Training Specialist**: 30 hours for rollout and user adoption
-- **Field Supervisors**: 5 supervisors × 8 hours for pilot testing
-- **IT Support**: 20 hours for deployment and ongoing support
+- **Jess (Primary User)**: 8 hours/week for testing, feedback, and training (64 hours total)
+- **Leon (Operations Manager)**: 2 hours/week for operations oversight and validation (16 hours total)
+- **Field Supervisor**: 2 hours/week for scheduling validation and feedback (16 hours total)
+- **Total Internal**: 96 hours
 
-**Note**: Split entity structure (Savana Environmental / Savana) maintained for contractor/visa management
+**Note**: Phase 3 builds upon Phase 1's digital documentation and Phase 2's mobile field capabilities to create intelligent resource allocation with real-time field data integration.
 
 ## Risk Management
 
 | Risk | Likelihood | Impact | Mitigation |
 |------|------------|--------|------------|
-| Device compatibility issues | Medium | Medium | Extensive device testing, PWA approach |
-| Poor network connectivity | High | Low | Robust offline capability, local storage |
-| Field worker resistance | Low | High | Intuitive design, comprehensive training |
-| Data synchronisation conflicts | Medium | Medium | Conflict resolution protocols, version control |
-| Device damage/loss | Medium | Low | Cloud backup, device management policies |
-| Mobile device failure | Medium | High | Backup devices and cloud sync |
-| Connectivity issues | High | Medium | Robust offline functionality |
-| User adoption resistance | Low | Medium | Maintain familiar interfaces, extensive training |
-| Compliance rejection | Low | Critical | Chris Milos approval at each stage |
-| Data security concerns | Medium | High | Australian hosting, encryption, audit trails |
+| Complex scheduling rules | High | Medium | Phased implementation, extensive discovery with Jess |
+| API limitations (ServiceM8/ConnectTeam) | Medium | High | Early testing, manual override capability, fallback procedures |
+| Data migration issues from Excel | Medium | Medium | Parallel run period, validation checks, Excel backup |
+| User resistance to change | Low | Medium | Familiar Excel-like interface, comprehensive training |
+| Integration failures | Low | High | Redundancy planning, manual override options |
+| System performance under load | Medium | Medium | Cloud-based architecture, performance monitoring |
 
 ## Budget Estimate
 
-### Total Phase Investment: $15,000 - $20,000
+### Total Phase Investment: $21,000 - $31,000
 
-**Cost Breakdown**
+**Development Costs: $20,000 - $30,000**
+- System Design: $7,000 - $10,000
+- Development: $10,000 - $15,000
+- Deployment: $3,000 - $5,000
 
-- Mobile development: $10,000 - $12,000
-- Testing & refinement: $3,000 - $5,000
-- Training & deployment: $2,000 - $3,000
+**Technology Costs: $1,000**
+- API licences: $500
+- Testing environment: $300
+- Development tools: $200
 
 ### Ongoing Costs (Annual)
 
-- App maintenance: $2,000
-- Cloud storage: $600
-- Support and updates: $1,400
-- **Total Annual**: $4,000
+- System maintenance and updates: $2,400
+- Cloud hosting and infrastructure: $600
+- API licensing fees: $1,200
+- **Total Annual**: $4,200
 
 ### Expected ROI
 
 **Time Savings**
-- Document processing: 2-3 hours/day saved
-- Pre-start completion: 10-20 minutes/supervisor/day saved
-- Amendment processing: 1-2 hours/incident saved
-- **Total**: ~15 hours/week operational time saved
+- Scheduling time reduction: 35 hours/week saved (from continuous to <1 hour daily)
+- Resource allocation efficiency: 2-3 hours/day data duplication eliminated
+- Qualification verification: 1-2 hours/day automated checking
+- **Total**: 40+ hours/week operational time saved
 
-**Cost Benefits**
-- Paper and printing: $500/month saved
-- Document storage: $200/month saved
-- Lost document recovery: $1,000/month avoided
-- **Annual Savings**: ~$20,400
+**Annual Savings**
+- Time saved: 35 hours/week @ $40/hour = $72,800/year
+- Error reduction and efficiency gains: $5,000/year estimated
+- **Total Annual Savings**: $77,800
 
 **Payback Period**
-- Initial investment recovery: 10-12 months
-- Ongoing efficiency gains: Immediate
+- Initial investment recovery: 4-5 months
+- Ongoing efficiency gains: Immediate upon deployment
 
 ## Success Metrics
 
 ### Primary KPIs
 
-- **Paper elimination**: 100% digital documentation
-- **Document retrieval time**: < 30 seconds
-- **Lost document rate**: 0%
-- **Field adoption rate**: > 90%
+- **Scheduling Time**: < 1 hour/day (from continuous manual updates)
+- **Resource Utilisation**: > 95% efficiency
+- **Schedule Conflicts**: < 2 per week
+- **Emergency Reallocation**: < 15 minutes response time
 
 ### Secondary Metrics
 
-- **Pre-start completion time**: < 10 minutes (from 20-30 minutes)
-- **Amendment processing**: < 5 minutes (from 1-2 hours)
-- **Safety document accuracy**: 100% version control
+- **System Adoption**: 100% within 2 weeks of deployment
+- **User Satisfaction**: > 8/10 rating from primary users
+- **Data Accuracy**: < 5% error rate in scheduling assignments
+- **API Reliability**: 99.5% uptime for system integrations
 
 ## Stakeholder Contacts
 
-- **Field Operations**: Leon (Operations Manager)
-- **Safety Compliance**: Chris Milos (Safety HSEQ)
-- **Primary Field Users**: 30+ field workers and supervisors
-- **Training Coordinator**: [To be assigned]
+- **Primary Operations**: Leon (Operations Manager)
+- **Primary User**: Jess (Project Manager) - scheduling system primary user
+- **System Administration**: Chris Milos (Safety HSEQ) - compliance oversight
+- **Field Validation**: Field Supervisor - scheduling validation and feedback
 - **IT Support**: Andrew @ Nalit
 
 ---
 
-**Project Status**: Phase 2 ready to commence November 26, 2025, building on Phase 1 digital foundation  
-**Next Review**: December 10, 2025 completion milestone  
-**Phase Dependencies**: Requires Phase 1 digital documentation system for mobile implementation  
-**Phase Progression**: Mobile field capabilities enable Phase 3 real-time scheduling data and Phase 4 integrated platform architecture
+**Project Status**: Phase 3 ready to commence December 9, 2025, building on Phases 1-2 foundation  
+**Next Review**: February 3, 2026 completion milestone  
+**Phase Dependencies**: Leverages Phase 1 digital compliance data and Phase 2 real-time field information  
+**Phase Progression**: Intelligent scheduling system enables Phase 4 comprehensive project delivery platform
