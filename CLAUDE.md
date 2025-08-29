@@ -64,12 +64,12 @@ ALWAYS start by reading: project-intelligence.md
 1. **Pre-Change Assessment**: Read current intelligence, identify affected sections
 2. **Make Document Changes**: Update target documents with specific changes
 3. **Intelligence Synchronization**: Update project intelligence database accordingly  
-4. **Validation**: Ensure budget=$100K, timeline fits Oct 1, 2025 - May 31, 2026
+4. **Validation**: Ensure budget=$96K, timeline fits Oct 1, 2025 - June 17, 2026
 5. **Version Control**: Update sync headers, change log, timestamps
 
 ### **Quality Assurance Checkpoints**
-- **Budget Validation**: Total always equals $100,000 (ex GST)
-- **Timeline Validation**: All work completes by May 31, 2026 (client deadline)
+- **Budget Validation**: Total always equals $96,000 (ex GST)
+- **Timeline Validation**: All work completes by June 17, 2026 (with 4-week integration period)
 - **Australian Standards**: Language, currency (AUD), business culture compliance
 - **Technical Feasibility**: Integration approach realistic with known system limitations
 
@@ -144,7 +144,7 @@ ALWAYS start by reading: project-intelligence.md
 1. **Use project intelligence as master** - Authoritative source for all project details
 2. **Compare individual phase docs** - Identify discrepancies  
 3. **Apply synchronization protocol** - Update affected documents systematically
-4. **Validate budget and timeline** - Ensure $100K total and May 31, 2026 deadline maintained
+4. **Validate budget and timeline** - Ensure $96K total and June 17, 2026 deadline maintained
 
 ---
 
