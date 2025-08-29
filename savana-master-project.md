@@ -4,7 +4,7 @@
 **Location:** Perth, Western Australia  
 **Proposed by:** Lakestone AI  
 **Project Duration:** 35 Weeks (October 1, 2025 - May 31, 2026)  
-**Total Investment:** $100,000 (ex GST)  
+**Total Investment:** $96,000 (ex GST)  
 **Proposal Type:** Business Process Automation & Systems Integration
 
 ---
@@ -97,101 +97,100 @@ The project follows a progressive capability-building approach across four seque
 
 ## Budget Summary
 
-### Total Project Investment: $100,000 (ex GST)
+### Total Project Investment: $96,000 (ex GST)
 
 | Phase | Development | Technology | Training | Testing | Total | Percentage |
 |-------|-------------|-----------|----------|---------|--------|------------|
-| Phase 1 | $20,000 | $2,000 | $2,000 | $1,000 | **$25,000** | 25% |
-| Phase 2 | $12,000 | $1,000 | $1,500 | $500 | **$15,000** | 15% |
-| Phase 3 | $22,000 | $1,000 | $1,500 | $500 | **$25,000** | 25% |
-| Phase 4 | $30,000 | $2,500 | $2,000 | $500 | **$35,000** | 35% |
-| **Total** | **$84,000** | **$6,500** | **$7,000** | **$2,500** | **$100,000** | 100% |
+| Phase 1 | $23,000 | $2,000 | $1,500 | $500 | **$27,000** | 28.1% |
+| Phase 2 | $29,000 | $1,500 | $2,000 | $500 | **$33,000** | 34.4% |
+| Phase 3 | $20,500 | $1,500 | $1,500 | $500 | **$24,000** | 25.0% |
+| Phase 4 | $10,000 | $1,000 | $800 | $200 | **$12,000** | 12.5% |
+| **Total** | **$82,500** | **$6,000** | **$5,800** | **$1,700** | **$96,000** | 100% |
 
 ## Detailed Cost Breakdown
 
-### Phase 1: Safety Documentation Automation ($25,000)
+### Phase 1: ServiceM8 Enhancement & Data Quality ($27,000)
 
 | Item | Description | Hours | Rate | Cost (ex GST) |
 |------|-------------|-------|------|---------------|
 | **Development** |||||
-| AI Model Development | Template recognition and pattern learning | 80 | $125 | $10,000 |
-| Integration Development | ServiceM8 and OneDrive API connections | 40 | $125 | $5,000 |
-| Interface Development | Web-based document creation interface | 40 | $125 | $5,000 |
+| Mobile PWA Development | Progressive Web App for comprehensive quote capture | 80 | $125 | $10,000 |
+| ServiceM8 API Integration | Enhanced integration with quality data capture | 40 | $125 | $5,000 |
+| ConnectTeam Integration | Qualification verification and worker data sync | 32 | $125 | $4,000 |
+| Offline Capability & Sync | Robust offline functionality with GPS and photo capture | 32 | $125 | $4,000 |
 | **Technology** |||||
-| Cloud Infrastructure | AWS/Azure setup and configuration | - | - | $1,000 |
-| API Licences | ServiceM8 and integration tools | - | - | $1,000 |
+| Cloud Infrastructure | Progressive Web App hosting and APIs | - | - | $1,200 |
+| API Licences | ServiceM8 and ConnectTeam access | - | - | $800 |
 | **Training & Change Management** |||||
-| User Training | Staff training and documentation | 20 | $100 | $2,000 |
+| Field Training | Mobile quote system training for field teams | 15 | $100 | $1,500 |
 | **Testing & Quality Assurance** |||||
-| System Testing | Compliance validation and user acceptance | 10 | $100 | $1,000 |
-| **Phase 1 Subtotal** |||| **$25,000** |
+| Mobile Testing | Cross-platform and offline capability testing | 5 | $100 | $500 |
+| **Phase 1 Subtotal** |||| **$27,000** |
 
-### Phase 2: Digital Field Documentation ($15,000)
-
-| Item | Description | Hours | Rate | Cost (ex GST) |
-|------|-------------|-------|------|---------------|
-| **Development** |||||
-| Mobile PWA Development | Progressive web app for field access | 60 | $125 | $7,500 |
-| Offline Capability | Sync engine and local storage | 20 | $125 | $2,500 |
-| Digital Signature System | Legally compliant e-signatures | 20 | $125 | $2,500 |
-| **Technology** |||||
-| Mobile Development Tools | PWA frameworks and testing tools | - | - | $500 |
-| Cloud Storage | Additional storage for photos/documents | - | - | $500 |
-| **Training & Deployment** |||||
-| Field Training | 30+ field worker training programme | 15 | $100 | $1,500 |
-| **Testing & Validation** |||||
-| Field Testing | Pilot programme with 5 supervisors | 5 | $100 | $500 |
-| **Phase 2 Subtotal** |||| **$15,000** |
-
-### Phase 3: Intelligent Scheduling System ($25,000)
+### Phase 2: Intelligent Scheduling System ($33,000)
 
 | Item | Description | Hours | Rate | Cost (ex GST) |
 |------|-------------|-------|------|---------------|
 | **Development** |||||
-| Scheduling Algorithm | Intelligent resource optimisation engine | 80 | $125 | $10,000 |
-| API Integration | ConnectTeam and ServiceM8 connections | 40 | $125 | $5,000 |
-| Dashboard Interface | Drag-and-drop scheduling interface | 40 | $125 | $5,000 |
-| Conflict Resolution | Worker preference and constraint management | 20 | $125 | $2,500 |
+| Scheduling Engine Development | Enterprise-grade scheduling algorithm and conflict resolution | 120 | $125 | $15,000 |
+| Excel Replacement Interface | Drag-and-drop scheduling interface with Excel-like familiarity | 60 | $125 | $7,500 |
+| API Integration Layer | ServiceM8 and ConnectTeam real-time data synchronisation | 40 | $125 | $5,000 |
+| Mobile-Responsive Interface | Real-time scheduling access for field supervisors | 24 | $125 | $3,000 |
 | **Technology** |||||
-| API Licences | ConnectTeam and ServiceM8 API access | - | - | $500 |
-| Development Environment | Testing and staging infrastructure | - | - | $500 |
+| Cloud Infrastructure | Enterprise scheduling platform hosting and databases | - | - | $1,000 |
+| API Licences | Enhanced ServiceM8 and ConnectTeam integrations | - | - | $500 |
 | **Training & Change Management** |||||
-| Scheduler Training | Primary user training and documentation | 10 | $100 | $1,000 |
-| Process Documentation | Workflow documentation and guides | 5 | $100 | $500 |
+| Scheduler Training | Primary scheduling staff comprehensive training | 15 | $100 | $1,500 |
+| Management Training | Supervisory staff training on new scheduling system | 5 | $100 | $500 |
 | **Testing & Optimisation** |||||
-| Parallel Run Testing | Two-week parallel run with Excel | 5 | $100 | $500 |
-| **Phase 3 Subtotal** |||| **$25,000** |
+| Parallel Run Testing | Two-week parallel operation with existing Excel system | 5 | $100 | $500 |
+| **Phase 2 Subtotal** |||| **$33,000** |
 
-### Phase 4: Custom Field Management Platform ($35,000)
+### Phase 3: Safety Documentation Automation ($24,000)
 
 | Item | Description | Hours | Rate | Cost (ex GST) |
 |------|-------------|-------|------|---------------|
 | **Development** |||||
-| Backend Development | API development and database architecture | 80 | $125 | $10,000 |
-| Mobile Application | React Native/Flutter cross-platform app | 80 | $125 | $10,000 |
-| MYOB Integration | Two-way sync with financial systems | 40 | $125 | $5,000 |
-| ConnectTeam Integration | OAuth and timesheet integration | 20 | $125 | $2,500 |
-| System Architecture | Solution design and infrastructure | 20 | $125 | $2,500 |
+| Document Template Engine | API-connected Word templates with pre-population | 60 | $125 | $7,500 |
+| Microsoft Graph Integration | OneDrive and Office 365 document automation | 40 | $125 | $5,000 |
+| ServiceM8 Data Integration | Automatic job data extraction and document population | 32 | $125 | $4,000 |
+| Workflow Automation | Hygienist review and approval process automation | 32 | $125 | $4,000 |
 | **Technology** |||||
-| Mobile Development | App development tools and licences | - | - | $1,000 |
-| Infrastructure | Cloud hosting and databases | - | - | $1,000 |
-| Testing Tools | API testing and monitoring | - | - | $500 |
+| Microsoft Graph Licences | OneDrive and Office 365 API access | - | - | $800 |
+| Cloud Infrastructure | Document processing and template storage | - | - | $700 |
+| **Training & Change Management** |||||
+| Document Team Training | Safety documentation team comprehensive training | 10 | $100 | $1,000 |
+| Hygienist Workflow Training | Digital review process training | 5 | $100 | $500 |
+| **Testing & Quality Assurance** |||||
+| Compliance Testing | WorkSafe and client requirement validation | 5 | $100 | $500 |
+| **Phase 3 Subtotal** |||| **$24,000** |
+
+### Phase 4: Mobile Field Documentation ($12,000)
+
+| Item | Description | Hours | Rate | Cost (ex GST) |
+|------|-------------|-------|------|---------------|
+| **Development** |||||
+| Mobile Interface Layer | Progressive Web App for mobile access to integrated systems | 60 | $125 | $7,500 |
+| Digital Signature Integration | Legally compliant e-signatures for field documentation | 20 | $125 | $2,500 |
+| **Technology** |||||
+| Mobile Development Tools | PWA development and testing frameworks | - | - | $600 |
+| Cloud Infrastructure | Mobile application hosting and sync services | - | - | $400 |
 | **Training & Deployment** |||||
-| Comprehensive Training | All staff training programme | 15 | $100 | $1,500 |
-| Documentation | User guides and system documentation | 5 | $100 | $500 |
+| Field Operations Training | Mobile system training for 30+ field workers | 6 | $100 | $600 |
+| Documentation | Mobile user guides and quick reference materials | 2 | $100 | $200 |
 | **Testing & Go-Live** |||||
-| System Testing | End-to-end testing and validation | 5 | $100 | $500 |
-| **Phase 4 Subtotal** |||| **$35,000** |
+| Mobile Testing | Cross-platform and field scenario testing | 2 | $100 | $200 |
+| **Phase 4 Subtotal** |||| **$12,000** |
 
 ### Summary by Category
 
 | Category | Phase 1 | Phase 2 | Phase 3 | Phase 4 | Total | Percentage |
 |----------|---------|---------|---------|---------|--------|------------|
-| Development | $20,000 | $12,500 | $22,500 | $30,000 | $85,000 | 85% |
-| Technology | $2,000 | $1,000 | $1,000 | $2,500 | $6,500 | 6.5% |
-| Training | $2,000 | $1,500 | $1,500 | $2,000 | $7,000 | 7% |
-| Testing | $1,000 | $500 | $500 | $500 | $2,500 | 2.5% |
-| **Total** | **$25,000** | **$15,000** | **$25,000** | **$35,000** | **$100,000** | **100%** |
+| Development | $23,000 | $30,500 | $20,500 | $10,000 | $84,000 | 87.5% |
+| Technology | $2,000 | $1,500 | $1,500 | $1,000 | $6,000 | 6.3% |
+| Training | $1,500 | $2,000 | $1,500 | $800 | $5,800 | 6.0% |
+| Testing | $500 | $500 | $500 | $200 | $1,700 | 1.8% |
+| **Total** | **$27,000** | **$33,000** | **$24,000** | **$12,000** | **$96,000** | **100%** |
 
 ## Return on Investment
 
@@ -217,11 +216,11 @@ The project follows a progressive capability-building approach across four seque
 
 ### Payback Analysis
 
-- **Total Investment**: $100,000 (one-time)
+- **Total Investment**: $96,000 (one-time)
 - **Annual Savings**: $154,640
-- **Simple Payback Period**: 7.8 months
-- **3-Year Net Benefit**: $363,920
-- **ROI**: 364% over 3 years
+- **Simple Payback Period**: 7.4 months
+- **3-Year Net Benefit**: $367,920
+- **ROI**: 383% over 3 years
 
 ## Risk Management
 
