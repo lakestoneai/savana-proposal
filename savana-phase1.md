@@ -1,7 +1,7 @@
 # Phase 1: Automate Quotation and Data Structure into ServiceM8
 
 **Project Duration:** 13 Weeks  
-**Implementation Period:** Phase 1 - Automate Quotation and Data Structure into ServiceM8
+**Implementation Period:** Phase 1 - Automate Quotation and Data Structure into ServiceM8  
 **Start Date:** February 3, 2026  
 **End Date:** May 5, 2026
 
